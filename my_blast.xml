@@ -1,0 +1,1500 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>gi|269974746|gb|GU120195.2|</BlastOutput_query-ID>
+  <BlastOutput_query-def>Chrysanthemum lavandulifolium flowering locus T-like protein (FT) mRNA, complete cds</BlastOutput_query-def>
+  <BlastOutput_query-len>837</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|269974746|gb|GU120195.2|</Iteration_query-ID>
+  <Iteration_query-def>Chrysanthemum lavandulifolium flowering locus T-like protein (FT) mRNA, complete cds</Iteration_query-def>
+  <Iteration_query-len>837</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|269974746|gb|GU120195.2|</Hit_id>
+  <Hit_def>Chrysanthemum lavandulifolium flowering locus T-like protein (FT) mRNA, complete cds</Hit_def>
+  <Hit_accession>GU120195</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1510.71</Hsp_bit-score>
+      <Hsp_score>1674</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>837</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>837</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>837</Hsp_identity>
+      <Hsp_positive>837</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>837</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCATTATGACGAATGATGAATGATGAATGAAATGAAATAAATATGTATTGCATTATGTTTAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCATTATGACGAATGATGAATGATGAATGAAATGAAATAAATATGTATTGCATTATGTTTAAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|428671028|dbj|AB679272.2|</Hit_id>
+  <Hit_def>Chrysanthemum seticuspe f. boreale CsFTL3 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB679272</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1341.19</Hsp_bit-score>
+      <Hsp_score>1486</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>773</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>752</Hsp_identity>
+      <Hsp_positive>752</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>758</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCATTATGACGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACAAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACTTGTAATAAAGATATATTTCATTATGACGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|493664693|dbj|AB808631.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium JbFT1-1 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB808631</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1321.35</Hsp_bit-score>
+      <Hsp_score>1464</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>742</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>742</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>738</Hsp_identity>
+      <Hsp_positive>738</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>742</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGA</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|493664696|dbj|AB808632.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium JbFT1-2 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB808632</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1294.3</Hsp_bit-score>
+      <Hsp_score>1434</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>742</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>742</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>732</Hsp_identity>
+      <Hsp_positive>732</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>742</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGA</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTAGCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|353677906|dbj|AB545937.2|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium CmFTL3 mRNA for flowering locus T-like protein, complete cds</Hit_def>
+  <Hit_accession>AB545937</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1213.15</Hsp_bit-score>
+      <Hsp_score>1344</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>700</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>689</Hsp_identity>
+      <Hsp_positive>689</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>700</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATA</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCAAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTGAAAGCACGCACATCATATTATAATTGTTTAGTCTTCTTTAAACTATATAATATCATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| || |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|564113728|gb|KC589294.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium cultivar Jinba flowering locus T-like protein (FTL) mRNA, complete cds</Hit_def>
+  <Hit_accession>KC589294</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1122.98</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>921</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>628</Hsp_identity>
+      <Hsp_positive>628</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>632</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAAC</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTTAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|260751342|gb|GQ925916.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium flowering locus T-like protein (FT) mRNA, complete cds &gt;gi|493664700|dbj|AB808634.1| Chrysanthemum x morifolium OpFT1-1 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>GQ925916</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1070.68</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>608</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>608</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>602</Hsp_identity>
+      <Hsp_positive>602</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>608</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATT</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGCACATCATATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|475393051|dbj|AB770479.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium CmFTL3 mRNA for flowering locus T-like protein, partial cds</Hit_def>
+  <Hit_accession>AB770479</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1058.06</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>837</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>635</Hsp_identity>
+      <Hsp_positive>635</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>669</Hsp_align-len>
+      <Hsp_qseq>GAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCA-TTATGACGAATGATGAATGATGAATGAAATGAAATAAATATGTATTGCATTATGTTTAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>GAGTTGATATCGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCTCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTGAAAGCACGCACATCATATTATAATTGTTTAGTCTTCTTTAAACTATATAATATCATAATTATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAATTGTAAGACTTGTAATAAAGATGTATTTCATTTATGACGAATGATGAATGA------AAATGAATTAAATATG-------------TTAAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| || |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||||||||||||||||||      ||||||| ||||||||             ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|345104743|gb|JF488071.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium flowering locus T-like protein (FT) mRNA, complete cds</Hit_def>
+  <Hit_accession>JF488071</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1056.26</Hsp_bit-score>
+      <Hsp_score>1170</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>608</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>608</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>599</Hsp_identity>
+      <Hsp_positive>599</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>608</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATT</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGATAGGAAATCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGCACATCATATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||| |  ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|493664698|dbj|AB808633.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium IwFT mRNA for FT like protein, complete cds &gt;gi|493664702|dbj|AB808635.1| Chrysanthemum x morifolium OpFT1-2 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB808633</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1049.04</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>598</Hsp_identity>
+      <Hsp_positive>598</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTA</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTAGCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACAACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTGAAAGCACGCACATCATATTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|612407559|dbj|AB496427.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium FT mRNA for flowering locus T, complete cds</Hit_def>
+  <Hit_accession>AB496427</Hit_accession>
+  <Hit_len>801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>823.622</Hsp_bit-score>
+      <Hsp_score>912</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>613</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>551</Hsp_identity>
+      <Hsp_positive>551</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAAT</Hsp_qseq>
+      <Hsp_hseq>TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGGGATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAGGTTAGCAACGGGCGCGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCATTGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGACTACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCCAGCATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATAAGATAAAAGGCATGTCCATGGCATGAAGAGGACGTTACAA--GCATATTGAAAGCACGCACATCATGTTATAAT</Hsp_hseq>
+      <Hsp_midline>|||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || |||||||||||||||||||| |||||||||||||||||||| || ||| | ||||  || |||   |||||| | || |||||||||||| ||||||||||||||||||||||||  || ||||| || ||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||||||| | || ||||||||| ||||   | ||||||||||   ||||||||||||||| ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|365189268|dbj|AB677317.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium CmFTL2 mRNA for flowering locus T-like protein, complete cds, cultivar: Sei-Marine</Hit_def>
+  <Hit_accession>AB677317</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>814.606</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>613</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>648</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>549</Hsp_identity>
+      <Hsp_positive>549</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAAT</Hsp_qseq>
+      <Hsp_hseq>TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGGGATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAGGTTAGCAACGGGCGCGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCATTGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGACTACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCCAGCATGGCGCCAGAACTTCAACACCAA--ACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATAAGATAAAAGGCATGTCCATGGCATGAAGAGGACGTTACAAGCATATTTTGAAAGCACGCACATCATGTTATAAT</Hsp_hseq>
+      <Hsp_midline>|||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || |||||||||||||||||||| |||||||||||||||||||| || ||| | ||||  || |||   |||||| | || |||||||||||| ||||||||||||||||||||||||  || ||||| || ||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||||||| | || ||||||||| ||||   | ||||||||||  | || ||||||||||| ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|353677904|dbj|AB545936.2|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium CmFTL1 mRNA for flowering locus T-Like protein, complete cds</Hit_def>
+  <Hit_accession>AB545936</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>800.179</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>605</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>541</Hsp_identity>
+      <Hsp_positive>541</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>605</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCAT</Hsp_qseq>
+      <Hsp_hseq>TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGGGATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTACGACGATACAGAGGTTAGCAACGGGCGCGATCTAAAACCTTCTCAGGTTGTGAACCAACCGAGAGTTGGCATTGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGACTACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCCAGCATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATAAGATAAAAGGCATGTCCATGGCATGAAGAGGATGTTACAA--GCATATTGAAAGCACGCACATCAT</Hsp_hseq>
+      <Hsp_midline>|||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || |||||||||||||||||||| |||||||||||||||||||| || ||  | ||||  || |||   |||||| | || |||||||| ||| ||||||||||||||||||||||||  || ||||| || ||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||||||| | || ||||||||| ||||   | || |||||||   ||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|356874555|dbj|AB679271.1|</Hit_id>
+  <Hit_def>Chrysanthemum seticuspe f. boreale CsFTL2 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB679271</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.274</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>480</Hsp_identity>
+      <Hsp_positive>480</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGAAAGGGATCCATTGGTTGGTGGACGCGTAATAGGGGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTTTCCTATGACGATACAGAGGTTAGCAATGGGTGCGATCTCAAACCCTCTCAGATTGTGAACCAACCGAGAGTTGGTATTGGAGGTGACGATCTGCGCGCATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGGGACTACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGTTTATGTGTTATTCCGGCAATTGGGTCGACAAACTGCGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTGGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTGGATTTGGTAGAAGACGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| ||| || ||||| || ||||||||||||||||||||||||||||||||||||||||| |||||| | ||||  || |||   || ||||| || || ||||||||| || ||||||||||||||||||||| ||| |||||||| ||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||||||||||||||||||| |||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||| ||||||||||||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|356874553|dbj|AB679270.1|</Hit_id>
+  <Hit_def>Chrysanthemum seticuspe f. boreale CsFTL1 mRNA for FT like protein, complete cds</Hit_def>
+  <Hit_accession>AB679270</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>735.257</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>478</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGGGATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAGGTTAGCAACGGGCGCGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCATTGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGACTACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCCAGCATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||  ||| || ||||| || |||||||||||||||||||| |||||||||||||||||||| || ||| | ||||  || |||   |||||| | || |||||||||||| ||||||||||||||||||||||||  || ||||| || ||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||| ||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|377648673|gb|JF434703.1|</Hit_id>
+  <Hit_def>Xanthium strumarium flowering locus T 3 (FT3) mRNA, complete cds</Hit_def>
+  <Hit_accession>JF434703</Hit_accession>
+  <Hit_len>748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.611</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.92504e-168</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>477</Hsp_identity>
+      <Hsp_positive>477</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>571</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA--TATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACA</Hsp_qseq>
+      <Hsp_hseq>ATGGCAAGGGGAAGGGACCCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATGGTTTCACCAAGTCGATTAACCTTACTGTTTCTTATAACGATAGGGAAGTTACAAACGGGTGTGAGCTAAAACCCTCTCAAGTTGTGAACCAACCCAGGGTTGAAATCGGAGGTGACGACTTGCGCGCTTTTCACACTCTAGTAATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCTAACCTTAGGGAGTACTTGCATTGGTTGGTGACTGATATTCCAGCAACTACAGGTGCACGTTTTGGTCAAGAGGTCGTGTGCTACGAGAGTCCAAGGCCATCGATGGGAATTCACCGTATGGTTTTTGTGTTGTTTCGACAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAAAATTTCAACACAAAAGACTTTGCAGAGCTCTATAACCTTGGATCGCCTGTGGCCGCGGTATACTTCAACTGCCAACGTGAAAGCGGTTTCGGTGGACGAAGGAGACAAGAATAATATGAA----GCATGGCATGCAAATCACGTAATAAATGCA</Hsp_hseq>
+      <Hsp_midline>||| | |||| |||||| || ||||| ||||| ||||| || || |||||||||||| ||||||||||||| || |||||  |||| || ||||| |||||||||||| | |||||||||||||||||||||||| | |||||||||||||| || ||||| ||||||||||| ||  ||||||| ||||||||  |||| ||||| |||||||||||||||||||| |||||||||||| | ||||| ||||| || |||||||| || ||||||||||| || ||||| ||||  ||||||||||| || |||||||| ||||| ||||||||||| ||||||||||| || |||||||||||| | || || || ||||||||||||||||||||||||||||| |||||||| || |||||||| ||||||||||| |||||||| ||||| ||||| || || |||||||| || || ||||| ||||| ||||| || || ||||||||| ||||| ||||   ||||| |     |||| |||||  || |||| | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|309256318|gb|GU985573.1|</Hit_id>
+  <Hit_def>Helianthus annuus isolate Ann1238 flowering locus T4 mRNA, complete cds</Hit_def>
+  <Hit_accession>GU985573</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.201</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>8.18546e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>447</Hsp_identity>
+      <Hsp_positive>447</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGAACGGGACCCGTTGGTGGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCACCAGGTCGATGAACCTTACTGTCTCGTATAACGATAGGGAAGTTAGCAACGGGTGCGAGCTAAAACCCTCTCAAGTTGTGAACCAACCTCGAGTTGATATTGGAGGCGACGACCTGCGYGCTTTTCACACTCTAGTAATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCTAACCTTAGGGAATACTTGCATTGGTTGGTGACTGATATTCCCGCAACAACAGGAGCACGTTTTGGGCAAGAAGTCGTGTGCTACGAGAGTCCAAGGCCATCGATGGGAATTCACCGTATGGTTTTCGTGTTGTTTCGACAGTTGGGTCGACAAACTGTGTACGCTCCAGGGTGGCGTCAAAACTTCAACACAAAAGACTTTGCGGAGCTCTACAACCTTGGATCGCCTGTGGCTGCAGTCTACTTCAACTGCCAACGCGAAAGTGGGTTCGGTGGACGAAGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||| || ||||| ||||| ||||| || || |||||||||||||||||||||| ||| || |||||  |||| || ||||| ||||||||||||   |||||||| ||||||||||||||| | ||||||||||||||  |||||||||| ||||| || ||  |||| || ||||||||  |||| ||||| |||||||||||||||||||| |||||||||||| | ||||||||||| || |||||||| || |||||||| || |||||||||||||  ||||| |||||||| |||||||| ||||| ||||||||||| ||||||||||| || |||||||| ||| | || || || ||||||||||||||||||||||| ||||| ||||| || ||||||||||| |||||||||||||||||||||||||| ||||| || || || || || || || ||||| ||||| |||||||| || ||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|327397101|dbj|AB602322.1|</Hit_id>
+  <Hit_def>Lactuca sativa LsFT mRNA for flowering locus T, complete cds</Hit_def>
+  <Hit_accession>AB602322</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.791</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>3.48055e-165</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>528</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGATGCCTAGGGAGAGGGACCCGTTGGTTGTTGGACGTGTGATAGGAGATGTTCTCGACAGTTTCACAAAGTCGATTAACCTTTCTGTAACATACAACGATAGAGAAGTTAGCAATGGGTGCGAGCTAAAACCCTCTCAGGTGGTAAATCAGCCTAGGGTTGATATTGGAGGTGACGACCTCCGGGCTTTTCACACTTTAGTGATGGTCGATCCTGATGCTCCAAGTCCTAGTGACCCTAACCTTAGGGAATACTTGCATTGGTTGGTGACCGATATACCAGCGACCACGGGAGCACGTTTTGGCCAAGAAATTGTGTGCTATGAGAGTCCAAGGCCGTCAATGGGAATTCATCGCATGGTTTTTGTGTTATTCCGACAGTTGGGTCGACAAACTGTGTATGCCCCTGGATGGCGTCAGAACTTCAATACTAAAGACTTTGCGGAGCTTTACAACCTTGGTTCTCCGGTGGCAGCAGTCTACTTCAACTGCCAACGTGAAAGTGGGTTTGGTGGGCGAAGAAGATAA</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||||| ||||| || ||||||||||| ||||| || || |||||||| || |||||||| ||||| || ||||| |||||  | || || ||||| ||||||   || ||||| ||||||||||||||| |||| || || || || || |||||||| |||||||| ||  | || || |||||||| ||||||||||| ||||||||||||||||||||||||||||||||| | ||||||||||| || |||||||| |||||||| |||||||| || |||||||  ||||| |||||| |||||||||||||||| |||||||| |||||||||||||||||||||||||||||| ||||||| || |||||||||||||||||||| ||||| |||||||| ||||||||||| || ||||||||||||||||| |||||||| || ||||| || || || || || || ||||| ||||| |||||||| |||||||| ||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|309256316|gb|GU985572.1|</Hit_id>
+  <Hit_def>Helianthus annuus cultivar cmsHA89 flowering locus T4 mRNA, complete cds</Hit_def>
+  <Hit_accession>GU985572</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.988</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.21483e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGAACGGGACCCGTTGGTGGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCACCAGGTCGATGAACCTTACTGTCTCGTATAACGATAGGGAAGTTAGCAACGGGTGCGAGCTAAAACCCTCTCAAGTTGTGAACCAACCTCGGGTTGATATTGGAGGCGACGACCTGCGTGCTTTTCACACTCTAGTAATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCTAACCTTAGGGAATACTTGCATTGGTTGGTGACTGATATTCCCGCAACAACAGGAGCACGTTTTGGGCAAGAAGTCGTGTGCTACGAGAGTCCAAGGCCATCGATGGGAATTCACCGTATGGTTTTCGTGTTGTTTCGACAGTTGGGTCGACAAACTGTGTACGCTCCAGGGTGGCGTCAAAACTTCAACACAAAAGACTTTGCGGAGCTCTACAACCTTGGATCGCCTGTGGCTGCAGTCTACTTCAACTGCCAACGCGAAAGTGGGTTCGGTGGACGAAGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||| || ||||| ||||| ||||| || || |||||||||||||||||||||| ||| || |||||  |||| || ||||| ||||||||||||   |||||||| ||||||||||||||| | ||||||||||||||  | |||||||| ||||| || ||  |||| || ||||||||  |||| ||||| |||||||||||||||||||| |||||||||||| | ||||||||||| || |||||||| || |||||||| || |||||||||||||  ||||| |||||||| |||||||| ||||| ||||||||||| ||||||||||| || |||||||| ||| | || || || ||||||||||||||||||||||| ||||| ||||| || ||||||||||| |||||||||||||||||||||||||| ||||| || || || || || || || ||||| ||||| |||||||| || ||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|294719896|gb|GQ884987.1|</Hit_id>
+  <Hit_def>Helianthus annuus cultivar cmsHA89 flowering locus T2 (FT2) mRNA, complete cds</Hit_def>
+  <Hit_accession>GQ884987</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.364</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>7.66641e-161</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>GAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>GAGGGAGAGGGACCCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCACAAAGTCGATTAACCTTACGATTTCTTACAACGACAGGGAAGTTAGCAACGGGTGCACACTAAAACCCTCTCAGGTTGTTAACCAGCCTCGGGTTGATATTGGAGGTGACGACCTACGAGCTTTTCACACTTTAGTCATGGTGGATCCTGATGCTCCCAGTCCAAGTGACCCTAACCTTAGGGAATACTTGCATTGGTTGGTGACTGATATTCCAGCGACCACTGGAGCACGTTTTGGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTTTTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAACTTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCTCCTGTGGCCGCAGTCTACTTCAACTGCCAGCGTGAAAGTGGATCTGGTGGACGACGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||| || ||||| ||||| ||||| || || |||||||||||||||||||| ||||| || |||||  |  | || || || || |||||||||   ||||||||    |||||||||||| ||||||| ||||| ||  | |||||||| |||||||| ||  | || || |||||||| ||||| ||||| |||||||||||||| ||||| |||||||||||| | ||||||||||| || |||||||| || |||||||||||||| || |||||||  |||||||||||||| |||||||||||||| ||||| |||||||||||||||||||| |||||||| ||| | |||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||| | |||||| || |||||||||||||| || ||||| || ||||| || || || ||||| || || |||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|294997838|gb|GQ884986.1|</Hit_id>
+  <Hit_def>Helianthus annuus cultivar cmsHA89 flowering locus T1 (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>GQ884986</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.527</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>7.18028e-155</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>559</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>448</Hsp_identity>
+      <Hsp_positive>448</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>GAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATG</Hsp_qseq>
+      <Hsp_hseq>GAGGGAGAGGGATTCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCACAAAGTCGATTAACCTTACGATTTCTTACAACGATAGGGAAGTTAGCAACGGGTGCACACTAAAACCCTCTCAGGTTATTAACCAGCCTCGGGTTGATATAGGAGGTGACGACCTACGAGCTTTTCACACTTTAGTCATGGTGGATCCTGATGCTCCCAGTCCAAGTGACCCTAACCTTAGAGAATACTTGCATTGGTTGGTGACC-ATATTCCCGCGACCACTGGAGCACGTTTTGGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCAGTGGGAATTCATCGAATGGTTTTCGTGTTGTTCCGGCAGTTGGGTCGAGAAACTGTGTACGCCCCAGGGTGGCGCCAGAACTTCAACACTAGAGACTTTGCAGAGCTCTACAATCTTGGGTCTCCCGTGGCCGCAGTCTACTTCAACTGCCAGCGTGAAAGTGGATCTGGTGGACGACGGAGATAAGAAGAAAGGCATGTCAATG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||| | ||||| ||||| ||||| || || |||||||||||||||||||| ||||| || |||||  |  | || || || ||||||||||||   ||||||||    |||||||||||| ||||| | ||||| ||  | |||||||| |||||||| ||  | || || |||||||| ||||| ||||| |||||||||||||| ||||| |||||||||||| | || |||||||| || |||||||| ||| ||||||| ||||| || |||||||  |||||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| |||||||| ||| | |||||||| ||||||||| ||||||||||||||||||| |||||||||||||||||||| | ||||||||| ||||||||||| || || ||||| || ||||| || || || ||||| || || |||||||||| |||||||||||||||||||||   | || ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|294719894|gb|GQ884985.1|</Hit_id>
+  <Hit_def>Helianthus annuus isolate Ann1238 flowering locus T1 (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>GQ884985</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>8.74737e-154</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>GAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>GAGGGAGAGGGATTCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCACAAAGTCGATTAACCTTACGATTTCTTACAACGATAGGGAAGTTAGCAACGGGTGCACACTAAAACCCTCTCAGGTTATTAACCAGCCTCGGGTTGATATAGGAGGTGACGACCTACGAGCTTTTCACACTTTAGTCATGGTGGATCCTGATGCTCCCAGTCCAAGTGACCCTAACCTTAGAGAATACTTGCATTGGTTGGTGACTGATATTCCCGCGACCACTGGAGCACGTTTTGGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCAGTGGGAATTCATCGAATGGTTTTCGTGTTGTTCCGGCAGTTGGGTCGAGAAACTGTGTACGCCCCAGGGTGGCGCCAGAACTTCAACACTAGAGACTTTGCAGAGCTCTACAATCTTGGGTCTCCCGTGGCCGCAGTCTACTTCAACTGCCAGCGTGAAAGTGGATCTGGTGGACGACGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||| | ||||| ||||| ||||| || || |||||||||||||||||||| ||||| || |||||  |  | || || || ||||||||||||   ||||||||    |||||||||||| ||||| | ||||| ||  | |||||||| |||||||| ||  | || || |||||||| ||||| ||||| |||||||||||||| ||||| |||||||||||| | || |||||||| || |||||||| || |||||||| ||||| || |||||||  |||||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| |||||||| ||| | |||||||| ||||||||| ||||||||||||||||||| |||||||||||||||||||| | ||||||||| ||||||||||| || || ||||| || ||||| || || || ||||| || || |||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|377648669|gb|JF434701.1|</Hit_id>
+  <Hit_def>Xanthium strumarium flowering locus T 1 (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>JF434701</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.477</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>9.98074e-147</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>711</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>715</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>537</Hsp_identity>
+      <Hsp_positive>537</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>695</Hsp_align-len>
+      <Hsp_qseq>GAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATA----GATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTA</Hsp_qseq>
+      <Hsp_hseq>GAGGGAGAGGGACCCGTTGGTTGTTGGACGTGTGATAGGAGATGTTGTTGATAGTTTCACCAGGTCGATTGACCTTACTATTTCTTACAACGATAGGGAAGTTAGCAATGGGTGCACGCTAAAACCCTCCGTGGTTGTAAACCAGCCTCGTGTTGATATTGGAGGAGAAGACTTACGCGCATTTCATACTTTAGTTATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCTAACCTTAGGGAATACTTGCATTGGTTGGTGACAGATATTCCAGCAACCACAGGAGCACGTTTTGGTCAAGAAGTTGTATGTTATGAGAGTCCAAGACCATCAATGGGAATTCATCGTATGGTATTCGTGTTGTTCCGACAATTGGGTCGACAAACTGTATACGCCCCTGGGTGGCGGCAGAACTTCAACACAAGAGACTTCGCCGAGCTCTACAATCTTGGATCTCCAGTGGCTGCAGCATACTTCAACTGCCAGCGTGAAAGTGGGTCCGGTGGACGCCGAATATAAGCTCAAAGGCGTGTCAAAG---GGCTTA-CATTTTATAAACAAATGTTCAAAGCATCCACAACATACTCTAGTT------TCATTTTTATATAAAATTATGTTAAACTTATAAAGAAGGCTATATCAAGAAAG---AACACTTATAA--AACTATTAAGGAATAAGAACACTTTA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||| || ||||||||||| ||||| || || |||||| ||||||||||||||| ||| ||  ||||  || | || || || ||||||||||||   || |||||   ||||||||||||   |||||| ||||| ||  | |||||||| ||||| || ||  | ||||||||||| || ||||| ||||| |||||||||||||||||||| |||||||||||| | ||||||||||| || |||||||| || ||||||||||| || ||||||||||  ||||||||||||||||| || |||||||| ||||| |||||||||||||||||||| ||||| || ||| | ||||| |||||||||||||||||||| |||||||| || ||||| |||||||||||||| | |||||| || ||||||||||| || ||||||||||| || || |  || || ||||| || || |||||||| |  |||||||| || | ||||| |  | ||  |||| | |    ||| |  |  ||| ||| | || || ||||||   ||| |||| | || ||      || |||| | |  | || || ||| | ||||| | |     |||| ||||| |   ||||  || ||  | |||| || ||||||||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|377648671|gb|JF434702.1|</Hit_id>
+  <Hit_def>Xanthium strumarium flowering locus T 2 (FT2) mRNA, complete cds</Hit_def>
+  <Hit_accession>JF434702</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.836</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>3.26272e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>552</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>547</Hsp_align-len>
+      <Hsp_qseq>TTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAAT</Hsp_qseq>
+      <Hsp_hseq>TTTTTATATGACGAGGAGGGAGAGGGACCCGTTGGTTCTCGGACGTGTGATAGGAGATGTTGTTGATAGTTTCACCAGATCGATTGATGTTACTGTTTTATACAACGATATGGAAGTTAGCAACGGGTGCACCCTGAAACCCTCCCAAGTTGTAAACCAGCCTCACGTCGATATTGGAGGAGACGACCTTCGCGCTTTTCACACTTTAGTTATGATAGATCCTGATGCTCCAAGTCCAAGTGATCCTAACCTGAGGGAATACTTGCATTGGTTGGTGACAGATATTCCAGCGACCACAGGAGCACGTTTTGGTCAAGAACTCGTATGTTATGAGAGTCCAAGACCATCAATGGGAATTCATCGTATGGTATTTGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGCGTGGCGTCAGAACTTCAACACAAGAGACTTTGCCGAGCTCTACAACCTTGGATCTCCTGTGGCTGCAGCGTACTTCAACTGCCAGCGTGAAAGTGGATCCGGTGGACGCCGAATATAAGATGAATGGCAT</Hsp_hseq>
+      <Hsp_midline>|||||| || | |  |||||| ||||| || |||||| | || ||||| || || |||||| |||||||||||||||  || ||  |  |  |||| |  || || |||| |||||||   ||||||||    || ||||||||  | ||||| ||||| ||    || ||||| ||||| || ||  | ||||| |||||||| ||||| ||| |||||||||||||||||||||| ||||| |||||| | ||||||||||| || |||||||| || |||||||||||||| ||||||||||  |||||||||||| | || || |||||||| ||||| |||||||||||||||||||| ||||| |||||| | |||||||| ||||||||||||||||||||||||||||  ||||| |||||||||||||| | ||||||||| |||||||||||||| |||||||| || || || |  || || ||||| || || ||||||||||  |||||||| || | |||||||  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|565672496|gb|KF752602.1|</Hit_id>
+  <Hit_def>Chrysanthemum lavandulifolium flowering locus T-like protein (FT) gene, complete cds</Hit_def>
+  <Hit_accession>KF752602</Hit_accession>
+  <Hit_len>2727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.044</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>2.86459e-109</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>2503</Hsp_hit-from>
+      <Hsp_hit-to>2727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>389.011</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>7.68675e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGT</Hsp_qseq>
+      <Hsp_hseq>TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.22481e-22</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGT</Hsp_qseq>
+      <Hsp_hseq>GTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>5.20222e-11</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1836</Hsp_hit-from>
+      <Hsp_hit-to>1879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>GGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGT</Hsp_qseq>
+      <Hsp_hseq>GGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|358364704|gb|JN214350.1|</Hit_id>
+  <Hit_def>Litchi chinensis cultivar Sanyuehong flowering locus T (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>JN214350</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.421</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.80775e-105</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>397</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>516</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTAATCCTTTCACAAAGTCAATTTCTCTTACTGTTTCCTATAATAACAGGGAAATCAACAATGGTTGTGAGCTCAAACCCTCTCAGATTGTCAACCAACCTAGGGTTGATATTGGTGGTGATGATCTCAGGACCTTCTACACTTTGGTCATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCAAGACTGAGGGAGTACTTGCATTGGTTGGTGACCGATATTCCAGCGACCACTGGGGCAACCTTTGGGCAAGAGGTTGTGTGTTATGAGAGCCCTAGACCAACATCGGGGATTCACAGGTTCATATTCGTGTTGTTCCGGCAACTGGGCAGGCAGACGGTGTATGCGCCAGGATGGCGCCAGAATTTCAACACCAAAGAATTTGCTGAGCTTTACAACCTTGGATCTCCGGTGGCCGCGGTCTACTTTAATAGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || || |||||  | || ||||| || || || || ||||||||| ||  |||||| ||||||||    ||  |||| ||||||||| | |||||| |    || || |||||||| ||||||||| || |||| |||||||| || |||||||| || ||||||||| |  |  | ||  |||| || || ||||| ||||||||||| || || || ||||| || |   | ||||| ||||| || |||||||| ||||||||||||||||| || || |||   ||||| ||||| |||||||| ||||||||||| || ||| ||  ||| |||||  |  |  | || ||| | ||||||||| ||||  | || || ||||| || ||||||||||||||||| |||||||||||||| ||||| ||||| |||||||| |||||||| || |||||||| || |||||  | ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1028943421|ref|XM_016859473.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium hirsutum protein HEADING DATE 3A-like (LOC107928282), mRNA</Hit_def>
+  <Hit_accession>XM_016859473</Hit_accession>
+  <Hit_len>798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.011</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>7.68675e-104</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>547</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>614</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>535</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATAT</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGATAGAGATCCTTTGGTTGTTGGTAGGGTTATAGGAGATGTGTTGGACCCTTTTACAAGGTCTATTTCACTTAGGGTCACTTATGCTACTAGGGATGTTAACAATGGGGTTGAGCTTAAACCATCTCAAGTTGTTAACCAACCAAGGGTTGATATTGGTGGGGATGATCTGAGGACCTTCTACACCTTGGTTATGGTAGATCCTGATGCTCCAAGTCCAAGTGACCCAAACCTCAGGGAATACTTGCACTGGTTGGTTACTGATATTCCAGCCACAACTGGTGCAAGCTTTGGTCAAGAGGTGGTCTGCTACGAGAGCCCACGACCAACGGTCGGTATCCATCGTTTCGTGTTCGTGTTGTTCCGGCAACTTGGAAGGCAAACGGTGTACGCTCCAGGGTGGCGCCAAAACTTCAACACTAGGGACTTTGCTGAGCTTTACAATCTCGGGTTGCCAGTGGCCGCGGTTTACTTTAACTGCCAGAGGGAGAGTGGATCCGGTGGCCGTAGGACATGAAATAAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || || ||||| |||||||||||  | || || || |||||  | ||   ||| || | ||| ||    ||    ||  | |||  |  |||||| |||   || |||  |||||| ||||| ||| | ||||| |||||||| || |||||||| || || |||||| || |  | ||  |||| || || |||||||||||||||||||||||||| |||||||| ||| | ||||||||||| |||||||||||||| ||||||||||| ||||| || |||   ||||||||||| || || ||||| ||||||||| | ||| |  | || || |||||  | || || ||| | ||||||||| | ||  | ||||| |||||||| ||||| |||||||| ||||||||||| |  |||||||| ||||| ||||| ||||| |  ||||| ||||||||||| |||||||| ||  |||| |||||||  ||||| ||  ||| || | ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|358364708|gb|JN214352.1|</Hit_id>
+  <Hit_def>Litchi chinensis cultivar Heiye flowering locus T (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>JN214352</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.011</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>7.68675e-104</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTAATCCTTTCACAAAGTCAATTTCTCTTACTGTTTCCTATAATAACAGGGAAATCAACAATGGTTGTGAGCTCAAACCCTCTCAGATTGTCAACCAACCTAGGGTTGATATTGGTGGTGATGATCTCAGGACCTTCTACACTTTGGTCATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCAAGACTGAGGGAGTACTTGCATTGGTTGGTGACCGATATTCCAGCGACCACTGGGGCAACCTTTGGGCAAGAGGTTGTGTGTTATGAGAGCCCTAGACCAACATCGGGGATTCACAGGTTCATATTCGTGTTGTTCCGGCAACTGGGCAGGCAGACGGTGTATGCGCCAGGATGGCGCCAGAATTTCAACACCAAAGAATTTGCTGAGCTTTACAACCTTGGATCACCGGTGGCCGCCGTCTACTTCAACTGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>||||| || || || |||||  | || ||||| || || || || ||||||||| ||  |||||| ||||||||    ||  |||| ||||||||| | |||||| |    || || |||||||| ||||||||| || |||| |||||||| || |||||||| || ||||||||| |  |  | ||  |||| || || ||||| ||||||||||| || || || ||||| || |   | ||||| ||||| || |||||||| ||||||||||||||||| || || |||   ||||| ||||| |||||||| ||||||||||| || ||| ||  ||| |||||  |  |  | || ||| | ||||||||| ||||  | || || ||||| || ||||||||||||||||| |||||||||||||| ||||| ||||| |||||||| ||||| || || ||||| || || || ||||| ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|672231719|dbj|AB775532.1|</Hit_id>
+  <Hit_def>Fagus crenata FT mRNA for flowering locus T-like protein, complete cds</Hit_def>
+  <Hit_accession>AB775532</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.207</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>2.68294e-103</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>538</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCC--TATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAG-TTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGAT</Hsp_qseq>
+      <Hsp_hseq>ATGCCGAGGGATAGGGATCCTCTAGTTGTTGGTCGTGTTATAGGTGATGTTTTGGACCCCTTCACAAGGTCCATTT--CTCTCAGGGCTAATTATAACAATAGGGAGGTCAACAATGGTTGTGAGCTCAAACCTTCTCAGGTTGTCAACCAACCTAGGGTTGATATTGGTGGTGAGGATCTCAGGACCTTCTACACTCTGGTAATGGTGGATCCTGATGCACCAAGTCCTAGTGATCCCAACTTAAGGGAGTACTTGCATTGGCTGGTGACTGATATTCCAGCAACTACAGGGGC-CAGCTTTGGGCAAGAGGTTGTGTGCTATGAAAGTCCACGTCCAACGGTGGGGATTCATCGCTTCGTTTTCGTGTTGTTCCGTCAATTGGGAAGGCAGACAGTCTATGCACCTGGGTGGCGCCAGAATTTCAACACCAGGGACTTTGCTGAGCTTTATAATCTCGGATTGCCAGTGGCTGCAGTTTATTTCAATTGCCAGAGGGAAAGTGGCTCGGGTGGAAGAAGGCGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||  | |||||||| ||||| || || |||||| | ||    ||||| | ||| ||    ||||| | |     |||||  ||||||| ||    || || |||||||| ||||| ||| ||||||| |||||||| || |||||||| || ||||| ||| |  |  | ||  ||||  | || ||||| ||||||||||| |||||||||||||| || ||||||||||| ||||| || ||| |||| || ||||||||||| || ||||| || ||| ||||| ||||| |||||||||||||| || ||| | ||| |  |||| ||||||||| | ||||| ||| | ||||| ||||||||  | || || || || || || || ||||||||||| ||||||||||  |||||||| ||||| || || |||||||  ||||| || || |||||||| || || ||  |||||||||| |  |||||| || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|358364712|gb|JN214354.1|</Hit_id>
+  <Hit_def>Litchi chinensis cultivar Heli flowering locus T (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>JN214354</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.404</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>9.36438e-103</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTAATCCTTTCACAAAGTCAATTTCTCTTACTGTTTCCTATAATAACAGGGAAATCAACAATGGTTGTGAGCTCAAACCCTCTCAGATTGCCAACCAACCTAGGGTTGATATTGGTGGTGATGATCTCAGGACCTTCTACACTTTGGTCATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCAAGACTGAGGGAGTACTTGCATTGGTTGGTGACCGATATTCCAGCGACCACTGGGGCAACCTTTGGGCAAGAGGTTGTGTGTTATGAGAGCCCTAGACCAACATCGGGGATTCACAGGTTCATATTCGTGTTGTTCCGGCAACTGGGCAGGCAGACGGTGTATGCGCCAGGATGGCGCCAGAATTTCAACACCAAAGAATTTGCTGAGCTTTACAACCTTGGATCACCGGTGGCCGCCGTCTACTTCAACTGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>||||| || || || |||||  | || ||||| || || || || ||||||||| ||  |||||| ||||||||    ||  |||| ||||||||| | |||||| |    || || |||||||| ||||||||| || |||  |||||||| || |||||||| || ||||||||| |  |  | ||  |||| || || ||||| ||||||||||| || || || ||||| || |   | ||||| ||||| || |||||||| ||||||||||||||||| || || |||   ||||| ||||| |||||||| ||||||||||| || ||| ||  ||| |||||  |  |  | || ||| | ||||||||| ||||  | || || ||||| || ||||||||||||||||| |||||||||||||| ||||| ||||| |||||||| ||||| || || ||||| || || || ||||| ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|922080819|gb|KP099711.1|</Hit_id>
+  <Hit_def>Dimocarpus longan cultivar Sijimi flowering locus T2 mRNA, complete cds</Hit_def>
+  <Hit_accession>KP099711</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.387</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>4.85087e-100</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTCGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTAATCCTTTCACAAAGTCAATTTCTCTTAGTGTTTCCTATAACAACAGGGAAATCAGCAATGGTTGTGAGCTCAAACCCTCTCAGATTGTCAACCAACCTAGGGTTGATATTGGTGGTGATGATCTCAGGACCTTCTACACTTTGGTCATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCAAGACTGAGGGAGTACTTGCATTGGTTGGTAACTGATATTCCAGCGACCACTGGGGCAACCTTTGGGCAAGAGGTTGTGTGTTATGAGAGCCCTAGACCAACATCGGGGATTCATAGGTTCATATTCGTCTTGTTCCGGCAACTGGGCAGGCAGACAGTGTACGCGCCGGGATGGCGCCAGAATTTCAACACCAAAGAATTTGCTGAGCTTTACAACCTTGGATCTCCGGTTGCCGCGGTCTACTTTAACAGCCAGAGAGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|||||  | || || |||||  | || ||||| || || || || ||||||||| ||  |||||| ||||||||    ||   ||| ||||||||  | |||||| |    || || |||||||| ||||||||| || |||| |||||||| || |||||||| || ||||||||| |  |  | ||  |||| || || ||||| ||||||||||| || || || ||||| || |   | ||||| ||||| || |||||||| || |||||||||||||| || || |||   ||||| ||||| |||||||| ||||||||||| || ||| ||  ||| |||||| |  |  | || ||  | ||||||||| ||||  | || || |||||||| || |||||||||||||| |||||||||||||| ||||| ||||| |||||||| |||||||| || |||||||| || |||||| | ||  | || ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1032140164|gb|KR872844.1|</Hit_id>
+  <Hit_def>Ziziphus jujuba flowering locus T protein (FT) mRNA, complete cds</Hit_def>
+  <Hit_accession>KR872844</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.584</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.69312e-99</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGT--CCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGAAAGGGACCCTCTTGTTGTTGGTAGAGTTATCGGAGATGTTTTGGACCCTTTCACAAGGTCTAT--ATCTCTTAGGGTTTCTTACGGTAATCGAGAGGTTAACAATGGTTGTGAGCTCAAGCCTTCCCACGTTGTCAGCCAACCTAGAGTTGACATTGGTGGTGACGATCTTAGGACTTTCTACACCTTGGTTATGGTTGATCCTGATGCTCCTAGCCCAAGTGACCCAAACCTAAGAGAATATTTGCACTGGTTGGTGACTGATATTCCAGCAACTACAGGGGCAAGCTTTGGACAAGAAGTAGTGTGTTATGAGAGTCCACGACCGACAGTGGGGATTCATCGATTTGTTTTTGTGCTGTTTCGGCAATTGGGGAGGCAAACAGTGTACGCACCTGGGTGGCGTCAGAATTTCAACACCAGAGACTTTGCTGAGCTTTATAATCTTGGATTGCCAGTTGCAGCGGTTTACTTTAACTGCCAAAGGGAAAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|| ||||| || |||||||| ||  | ||||||||  | || || || |||||| | ||   |||||| | ||| ||  | ||||  | ||  | ||   | || | || |||   || || |||||||| || || ||  | ||||| | |||||| |||||||| || || ||||| ||| |  |  | ||  |||| || || ||||| |||||||||||||| || || |||||||| ||| |||| ||||| || ||||||||||| || ||||||||||| || ||||| |||   ||||| |||||||| ||||| |||||||| ||| | ||  || |||| ||||||||  | ||||||||||| || |||||||||||  | ||||| |||||||| || || ||||| ||||| |||||||||| ||||||||| ||||| || || || ||||  ||||| || |||||||| |||||||| ||| |||||||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1009114278|ref|XM_016018112.1|</Hit_id>
+  <Hit_def>PREDICTED: Ziziphus jujuba protein HEADING DATE 3A (LOC107410660), mRNA</Hit_def>
+  <Hit_accession>XM_016018112</Hit_accession>
+  <Hit_len>1174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.584</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.69312e-99</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>791</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGT--CCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGAAAGGGACCCTCTTGTTGTTGGTAGAGTTATCGGAGATGTTTTGGACCCTTTCACAAGGTCTAT--ATCTCTTAGGGTTTCTTACGGTAATCGAGAGGTTAACAATGGTTGTGAGCTCAAGCCTTCCCACGTTGTCAGCCAACCTAGAGTTGACATTGGTGGTGACGATCTTAGGACTTTCTACACCTTGGTTATGGTTGATCCTGATGCTCCTAGCCCAAGTGACCCAAACCTAAGAGAATATTTGCACTGGTTGGTGACTGATATTCCAGCAACTACAGGGGCAAGCTTTGGACAAGAAGTAGTGTGTTATGAGAGTCCACGACCGACAGTGGGGATTCATCGATTTGTTTTTGTGCTGTTTCGGCAATTGGGGAGGCAAACAGTGTACGCACCTGGGTGGCGTCAGAATTTCAACACCAGAGACTTTGCTGAGCTTTATAATCTTGGATTGCCAGTTGCAGCGGTTTACTTTAACTGCCAAAGGGAAAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|| ||||| || |||||||| ||  | ||||||||  | || || || |||||| | ||   |||||| | ||| ||  | ||||  | ||  | ||   | || | || |||   || || |||||||| || || ||  | ||||| | |||||| |||||||| || || ||||| ||| |  |  | ||  |||| || || ||||| |||||||||||||| || || |||||||| ||| |||| ||||| || ||||||||||| || ||||||||||| || ||||| |||   ||||| |||||||| ||||| |||||||| ||| | ||  || |||| ||||||||  | ||||||||||| || |||||||||||  | ||||| |||||||| || || ||||| ||||| |||||||||| ||||||||| ||||| || || || ||||  ||||| || |||||||| |||||||| ||| |||||||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|823154152|ref|XM_012621486.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium raimondii protein HEADING DATE 3A (LOC105792738), mRNA</Hit_def>
+  <Hit_accession>XM_012621486</Hit_accession>
+  <Hit_len>828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.584</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.69312e-99</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>547</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>621</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>535</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATAT</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGATAGAGATCCTTTGGTTGTTGGTAGGGTTATAGGAGATGTGTTGGACCCTTTTACAAGGTCTATTTCACTTAGGGTCACTTATGCTACTAGGGATGTTAGCAATGGTGTTGAGCTTAAACCATCTCAAGTTGTTAACCAACCAAGGGTTGATATTGGTGGGGATGATCTGAGGACCTTCTACACCTTGGTTATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCAAACCTCAGGGAATACTTGCACTGGTTGGTTACTGATATTCCAGCCACAACTGGTGCAAGCTTTGGTCAAGAGGTGGTCTGCTATGAGAGCCCACGACCAACGGTCGGTATCCATCGTTTTGTGTTCGTGTTGTTCCGGCAACTTGGAAGGCAAACGGTGTACGCACCAGGGTGGCGCCAAAACTTCAACACTAGGGACTTTGCTGAGCTTTACAACCTCGGGTTGCCGGTGGCTGCTGTTTACTTTAACTGCCAGAGGGAGAGTGGATCCGGTGGCCGTAGGACATGAAATAAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || || ||||| |||||||||||  | || || || |||||  | ||   ||| || | ||| ||    ||    ||  | |||  |  |||||| |||   || ||   |||||| ||||| ||| | ||||| |||||||| || |||||||| || || |||||| || |  | ||  |||| || || ||||| |||||||||||||||||||| |||||||| ||| | ||||||||||| |||||||||||||| ||||||||||| ||||| || |||   ||||||||||| || || ||||||||||||||| | ||| |  | || || |||||  | || || ||| | ||||||||| | ||  | ||||| |||||||| ||||| |||||||| ||||||||||| |  |||||||| ||||| ||||||||||| |  || || || || ||||| |||||||| ||  |||| |||||||  ||||| ||  ||| || | ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|590633323|ref|XM_007028021.1|</Hit_id>
+  <Hit_def>Theobroma cacao PEBP (phosphatidylethanolamine-binding protein) family protein (TCM_023287) mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_007028021</Hit_accession>
+  <Hit_len>941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.78</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>5.90957e-99</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>548</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>695</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>533</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATG</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGAGAAAGAGACCCCTTGGTTGTTGGTAGAGTTATAGGGGATGTTTTGGACCCTTTCACAAGGTCTATTTCTCTCAGGGTGACCTTCGCTTGTAGGGAAGTGAATAATGGTTGTGAGCTCAAACCATCTCAAGTTGTCAACCAGCCAAGAGTTGATATTGGTGGGGATGATCTTAGGACGTTTTACACTTTGGTTATGGTGGATCCTGATGCACCCAGCCCAAGTGACCCAAACCTGAGAGAATACTTGCATTGGTTGGTCACTGATATTCCAGCAACTACGGGGGCAAGCTTTGGGCAAGAAGTTGTGTGTTATGAAAGCCCACGACCAACGGTTGGGATCCATCGCTTTCTTTTCGTGTTGTTTCGCCAACTGGGTAGGCAGACAGTGTACGCACCCGGATGGCGCCAGAATTTCAACACCAGAGACTTTGCTGAGCTTTACAATCTCGGATTGCCAGTGGCTGCTGTTTACTTTAACTGCCAGAGGGAGAGTGGTTCCGGAGGCCGGAGGCGAT--GATACATG</Hsp_hseq>
+      <Hsp_midline>||||| || ||||| || || |||||||||||  | || || || |||||| | ||   |||||| | ||| ||    |||   ||| |||    |  |||||||||   ||| || |||||||| ||||| ||| | ||||| ||||| || ||||||||||| || || |||||| |  |  | ||| |||| || || ||||| ||||||||||| || || || |||||||| ||| | || |||||||| || |||||||| || ||||||||||| || || || |||   ||||| |||||||||||||| ||||| |||||| | ||| |  | || || |||||| |  |||| ||| | || || ||| ||||| | || || |||||||| || |||||||||||||| |||||||||| ||||||||| ||||| ||||| |||||||  ||||| || || ||||| |||||||| ||  |||| ||||| |  || || ||  || |||  |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1029063520|ref|XM_016836529.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium hirsutum protein HEADING DATE 3A (LOC107909115), mRNA</Hit_def>
+  <Hit_accession>XM_016836529</Hit_accession>
+  <Hit_len>877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.977</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.06264e-98</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>547</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>535</Hsp_align-len>
+      <Hsp_qseq>ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATAT</Hsp_qseq>
+      <Hsp_hseq>ATCATGCCTAGAGATAGAGATCCTTTGGTTGTTGGTAGGGTTATAGGAGATGTGTTGGACCCTTTTACAAGGTCTATTTCACTTAGGGTCACTTATGCTACTAGGGATGTTAGCAATGGTGTTGAGCTTAAGCCATCTCAAGTTGTTAACCAACCAAGGGTTGATATTGGTGGGGATGATCTGAGGACCTTCTACACCTTGGTTATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCAAACCTCAGGGAATACTTGCACTGGTTGGTTACTGATATTCCAGCCACAACTGGTGCAAGCTTTGGTCAAGAGGTGGTCTGCTATGAGAGCCCACGACCAACGGTCGGTATCCATCGTTTTGTGTTCGTGTTGTTCCGGCAACTTGGAAGGCAAACGGTGTACGCTCCAGGGTGGCGCCAAAACTTCAACACTAGGGACTTTGCTGAGCTTTACAACCTCGGGTTGCCGGTGGCTGCTGTTTACTTTAACTGCCAGAGGGAGAGTGGATCCGGTGGCCGTAGGACATGAAATAAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||| || || || ||||| |||||||||||  | || || || |||||  | ||   ||| || | ||| ||    ||    ||  | |||  |  |||||| |||   || ||   |||||| || || ||| | ||||| |||||||| || |||||||| || || |||||| || |  | ||  |||| || || ||||| |||||||||||||||||||| |||||||| ||| | ||||||||||| |||||||||||||| ||||||||||| ||||| || |||   ||||||||||| || || ||||||||||||||| | ||| |  | || || |||||  | || || ||| | ||||||||| | ||  | ||||| |||||||| ||||| |||||||| ||||||||||| |  |||||||| ||||| ||||||||||| |  || || || || ||||| |||||||| ||  |||| |||||||  ||||| ||  ||| || | ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|302140574|gb|HM631972.1|</Hit_id>
+  <Hit_def>Gossypium hirsutum cultivar Xinluzao 33 flowering locus T-like protein (FTL) mRNA, complete cds &gt;gi|363498046|gb|JN400883.1| Gossypium barbadense flowering locus T-like protein 1 (FTL1) mRNA, complete cds</Hit_def>
+  <Hit_accession>HM631972</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.977</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.06264e-98</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>538</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>396</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGAT</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGAGACAGAGATCCTTTGGTTGTTGGTAGGGTTATAGGAGATGTGTTGGACCCTTTTACAAGGTCTATTTCACTTAGGGTCACTTATGCTACTAGGGATGTTAGCAATGGTGTTGAGCTTAAGCCATCTCAAGTTGTTAACCAACCAAGGGTTGATATTGGTGGGGATGATCTGAGGACCTTCTACACCTTGGTTATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCAAACCTCAGGGAATACTTGCACTGGTTGGTTACTGATATTCCAGCCACAACTGGTGCAAGCTTTGGTCAAGAGGTGGTCTGCTATGAGAGCCCACGACCAACGGTCGGTATCCATCGTTTTGTGTTCGTGCTGTTCCGGCAACTTGGAAGGCAAACGGTGTACGCTCCAGGGTGGCGCCAAAACTTCAACACTAGGGACTTTGCTGAGCTTTACAACCTCGGGTTGCCGGTGGCTGCTGTTTACTTTAACTGCCAGAGGGAGAGTGGATCCGGTGGCCGTAGGACAT</Hsp_hseq>
+      <Hsp_midline>||||| || || || ||||| |||||||||||  | || || || |||||  | ||   ||| || | ||| ||    ||    ||  | |||  |  |||||| |||   || ||   |||||| || || ||| | ||||| |||||||| || |||||||| || || |||||| || |  | ||  |||| || || ||||| |||||||||||||||||||| |||||||| ||| | ||||||||||| |||||||||||||| ||||||||||| ||||| || |||   ||||||||||| || || ||||||||||||||| | ||| |  | || || |||||  | || || ||||| ||||||||| | ||  | ||||| |||||||| ||||| |||||||| ||||||||||| |  |||||||| ||||| ||||||||||| |  || || || || ||||| |||||||| ||  |||| |||||||  ||||| ||  ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|449082926|dbj|AB741571.1|</Hit_id>
+  <Hit_def>Camellia sinensis CsFT1 mRNA for flowering locus T, complete cds</Hit_def>
+  <Hit_accession>AB741571</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.567</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>8.77058e-97</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>512</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTCGGGACAGGGATCCTCTTGTTGTTGGGCGTGTTATAGGGGATGTTTTGGACCCCTTTACAAGGTCTATCTCTCTCAGGGTGACCTACAGCAGTAGGGAAGTTACCAATGGTTGTGAGCTCAGGCCTTCTCAAGTTGTCATCCAACCTAGGGTTGACATTGGTGGTGATGACCTTAGGACCTTCTACACTCTTGTTATGGTGGACCCTGATGCTCCCAGCCCAAGTGACCCAAACCTAAGGGAATACTTGCATTGGTTGGTGACTGATATCCCAGCAACCACTGGAGCAAGCTTTGGGCAAGAGGTGGTTTGTTATGAGAGTCCGAGGCCATCAATGGGAATCCATCGATTCGTTTTGGTGTTGTTTAGACAGTTGGGAAGGCAAACAGTGTATGCTCCAGGGTGGCGTCAGAATTTCAACACTCGGGACTTTGCGGAGCTTTACAATCTCGGCTCTCCTGTCGCCGCTGTTTATTTTAACTGCCAAAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||  |||| ||||||||  | |||||||||||||| || || |||||| | ||    || || | ||| |||   |||   ||| |||| |    |||||||||| | || || |||||||| |  || ||| | ||||| | |||||| || ||||| || || ||||||||  |  |  | ||  ||||  | || ||||| || ||||||||||| || || |||||||| ||| ||||||||||||| || |||||||| || ||||| ||||| || || ||||||   ||||| ||||| || || || |||||||| || ||||||||||||||||| |||||  | ||||| ||| | ||  | || |||||  | ||||| ||||| || ||||| ||||| ||||| ||||||||    |||||||||||||| ||||| ||||| ||||| || ||||| |||||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|444242623|gb|KC149523.1|</Hit_id>
+  <Hit_def>Camellia sinensis cultivar Longjing 43 flowering locus T mRNA, complete cds</Hit_def>
+  <Hit_accession>KC149523</Hit_accession>
+  <Hit_len>1050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.567</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>8.77058e-97</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>512</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTCGGGACAGGGATCCTCTTGTTGTTGGGCGTGTTATAGGGGATGTTTTGGACCCCTTTACAAGGTCTATCTCTCTCAGGGTGACCTACAGCAGTAGGGAAGTTACCAATGGTTGTGAGCTCAGGCCTTCTCAAGTTGTCATCCAACCTAGGGTTGACATTGGTGGTGATGACCTTAGGACCTTCTACACTCTTGTTATGGTGGACCCTGATGCTCCCAGCCCAAGTGACCCAAACCTAAGGGAATACTTGCATTGGTTGGTGACTGATATCCCAGCAACCACTGGAGCAAGCTTTGGGCAAGAGGTGGTTTGTTATGAGAGTCCGAGGCCATCAATGGGAATCCATCGATTCGTTTTGGTGTTGTTTAGACAGTTGGGAAGGCAAACAGTGTATGCTCCAGGGTGGCGTCAGAATTTCAACACTCGGGACTTTGCGGAGCTTTACAATCTCGGCTCTCCTGTCGCCGCTGTTTATTTTAACTGCCAAAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||  |||| ||||||||  | |||||||||||||| || || |||||| | ||    || || | ||| |||   |||   ||| |||| |    |||||||||| | || || |||||||| |  || ||| | ||||| | |||||| || ||||| || || ||||||||  |  |  | ||  ||||  | || ||||| || ||||||||||| || || |||||||| ||| ||||||||||||| || |||||||| || ||||| ||||| || || ||||||   ||||| ||||| || || || |||||||| || ||||||||||||||||| |||||  | ||||| ||| | ||  | || |||||  | ||||| ||||| || ||||| ||||| ||||| ||||||||    |||||||||||||| ||||| ||||| ||||| || ||||| |||||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|374706260|gb|JN564746.1|</Hit_id>
+  <Hit_def>Dimocarpus longan FLOWERING LOCUS T1 (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>JN564746</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.96</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.06848e-95</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>394</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>TTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTTTGGATCATGCCTAGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTGACCCCTTTACAAAGTCAATTTCTCTTAGTGTTTCCTATAACAACAGGGAAATCAACAATGGTTGTGAGCTCAAACCCTCTCAGATAGTCAACCAACCTAGGGTTGATGTTGGTGGTGATGATCTGAGGGCCTGCTACACTTTGGTTATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCTAGCCTGAGGGAATACTTGCATTGGTTGGTGACTGATATTCCAGCAACCACTGGGCCAACCTTTGGGCAAGAGGTTGTGAGTTATGAGAGCCCCAGACCAACTGCGGGGATTCACAGGTTCGTATTCGTGCTGTTCCAGCAACCGAGTAGGCAGACTATGTACGCACCGGGGTGGCGCCAGAATTTCAACACCAAAGACTTTGCTGAACTTTACAACCTTGGATCTCCGGTGGCCGCCGTCTACTTCAACTGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|||||  || ||||| || || || |||||  | || ||||| || || || || |||||||||||    || || ||||||||    ||   ||| ||||||||  | |||||| |    || || |||||||| ||||||||| || | || |||||||| || |||||| | || ||||||||| || | || |   |||| || || ||||| ||||||||||| || || || ||||| |||| | | ||||||||||| || |||||||| || ||||||||||| || || ||  ||   ||||| ||||| |||||| | ||||||||||| || ||| |   ||| |||||  |  | || || ||||| |||| ||||  | || | || ||| ||||||| || || ||||||||||| |||||||||||||||||||| || || |||||||| |||||||| || ||||| || || || ||||| ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|407355013|gb|JX569149.1|</Hit_id>
+  <Hit_def>Populus tomentosa flowering locus T (FT2) mRNA, complete cds</Hit_def>
+  <Hit_accession>JX569149</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.157</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>3.72935e-95</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>390</Hsp_identity>
+      <Hsp_positive>390</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>515</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCC--TATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGGGATAGAGAACCTCTTAGTGTTGGCCGTGTTATAGGGGACGTGTTGGACCCCTTCACAAGATCTGTCT--CTCTCAGGGTCAGTTACAATTCTAGAGAGGTTAACAATGGTTGTGAGCTCAAACCCTCTCACGTTGTCAACCAGCCCAGAGTTGATATCGGTGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGATGCACCCAGCCCAAGTAACCCAAACCTCAGAGAATACTTGCATTGGTTGGTGACTGATATTCCAGCAACTACCGGCGCAAACTTTGGGCAAGAGGTTGTGTGCTATGAGAGCCCAAGGCCGACAGCGGGAATACATCGGTTTGTTTTTGTGTTGTTCCGGCAACTAGGGAGGCAAACAGTGTATGCCCCTGGGTGGCGCCAGAATTTCAACACCAGGGACTTTGCTGAACTCTACAATCTAGGGTCGCCAGTAGCTGCGGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||| || || ||  |   |||||| ||||| || || || ||  | ||    ||||| |  ||  ||   ||||| | |||   || |||  ||| || |||   || || |||||||| ||||||||| | ||||| ||||| || |||||||||||||| || || ||| |  |  | ||  ||||  | || ||||| || |||||||| || || || ||| |||| ||| | || |||||||| || |||||||| || ||||||||||| || || || ||| | ||||| ||||| ||||||||||||||||||||||||||  ||  |||||| |||||  | ||||||||| | ||||||||| | ||  | ||||| ||||| ||||| || ||||||||||| ||||||||||  |||||||| || |||||||| || || || |||||||| ||||||||||| ||||| ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|743782004|ref|XM_011010583.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica protein HEADING DATE 3A (LOC105113887), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_011010583</Hit_accession>
+  <Hit_len>922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>AATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>AATGTCAAGGGATAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCCCCCTCAGGGTCACTTACAATTCCAGAGAGGTCAACAACGGTTGCGAGCTCAAGCCCTCTCAGGTTGCCAACCAGCCTAGGGTTGATATTGGAGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGACGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTTTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>|||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |||   || || ||    ||||| || ||||| || |||||| ||||||  ||||| || || |||||||| ||||| || ||| |  |  | ||  ||||  | || ||||| || ||||| || || || || |||||||| | | |||| ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|743782000|ref|XM_011010504.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica protein HEADING DATE 3A (LOC105113887), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_011010504</Hit_accession>
+  <Hit_len>1003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>860</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>AATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>AATGTCAAGGGATAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCCCCCTCAGGGTCACTTACAATTCCAGAGAGGTCAACAACGGTTGCGAGCTCAAGCCCTCTCAGGTTGCCAACCAGCCTAGGGTTGATATTGGAGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGACGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTTTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>|||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |||   || || ||    ||||| || ||||| || |||||| ||||||  ||||| || || |||||||| ||||| || ||| |  |  | ||  ||||  | || ||||| || ||||| || || || || |||||||| | | |||| ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|743781996|ref|XM_011010428.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica protein HEADING DATE 3A (LOC105113887), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_011010428</Hit_accession>
+  <Hit_len>1153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>485</Hsp_hit-from>
+      <Hsp_hit-to>1010</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>AATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>AATGTCAAGGGATAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCCCCCTCAGGGTCACTTACAATTCCAGAGAGGTCAACAACGGTTGCGAGCTCAAGCCCTCTCAGGTTGCCAACCAGCCTAGGGTTGATATTGGAGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGACGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTTTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>|||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |||   || || ||    ||||| || ||||| || |||||| ||||||  ||||| || || |||||||| ||||| || ||| |  |  | ||  ||||  | || ||||| || ||||| || || || || |||||||| | | |||| ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|743781994|ref|XM_011010348.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica protein HEADING DATE 3A (LOC105113887), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011010348</Hit_accession>
+  <Hit_len>2110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1442</Hsp_hit-from>
+      <Hsp_hit-to>1967</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>AATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>AATGTCAAGGGATAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCCCCCTCAGGGTCACTTACAATTCCAGAGAGGTCAACAACGGTTGCGAGCTCAAGCCCTCTCAGGTTGCCAACCAGCCTAGGGTTGATATTGGAGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGACGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTTTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>|||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |||   || || ||    ||||| || ||||| || |||||| ||||||  ||||| || || |||||||| ||||| || ||| |  |  | ||  ||||  | || ||||| || ||||| || || || || |||||||| | | |||| ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|743781990|ref|XM_011010280.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus euphratica protein HEADING DATE 3A (LOC105113887), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011010280</Hit_accession>
+  <Hit_len>2213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1545</Hsp_hit-from>
+      <Hsp_hit-to>2070</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>AATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>AATGTCAAGGGATAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCCCCCTCAGGGTCACTTACAATTCCAGAGAGGTCAACAACGGTTGCGAGCTCAAGCCCTCTCAGGTTGCCAACCAGCCTAGGGTTGATATTGGAGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGACGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTTTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>|||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |||   || || ||    ||||| || ||||| || |||||| ||||||  ||||| || || |||||||| ||||| || ||| |  |  | ||  ||||  | || ||||| || ||||| || || || || |||||||| | | |||| ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|571331024|gb|KF881011.1|</Hit_id>
+  <Hit_def>Dimocarpus longan flowering locus T-like 2 mRNA, complete cds</Hit_def>
+  <Hit_accession>KF881011</Hit_accession>
+  <Hit_len>670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.353</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.30167e-94</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>TTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGA</Hsp_qseq>
+      <Hsp_hseq>TTTTTGGATCATGCCTAGAGATAGAGATCCTCTTGTGGTTGGCCGAGTGATAGGGGATGTTCTTGACCCCTTTACAAAGTCAATTTCTCTTAGTGTTTCCTATAACAACAGGGAAATCAACAATGGTTGTGAGCTCAAACCCTCTCAGATAGTCAACCAACCTAGGGTTGATGTTGGTGGTGATGATCTGAGGACCTGCTACACTTTGGTTATGGTGGATCCTGATGCACCCAGCCCAAGTGAACCTAGCCTGAGGGAATACTTGCATTGGTTGGTGACTGATATTCCAGCAACCACTGGGCCAACCTTTGGGCAAGAGGTTGTGAGTTATGAGAGCCCCAGACCAACTGCGGGGATTCACAGGTTCGTATTCGTGCTGTTCCAGCAACCGAGTAGGCAGACTATGTACGCACCGGGGTGGCGCCAGAATTTCAACACCAAAGACTTTGCTGAACTTTACAACCTTGGATCTCCGGTGGCCGCCGTCTACTTCAACTGCCAGAGGGAGAGTGGCTCCGGTGGA</Hsp_hseq>
+      <Hsp_midline>|||||  || ||||| || || || |||||  | || ||||| || || || || |||||||||||    || || ||||||||    ||   ||| ||||||||  | |||||| |    || || |||||||| ||||||||| || | || |||||||| || |||||| | || ||||||||| || |  | |   |||| || || ||||| ||||||||||| || || || ||||| |||| | | ||||||||||| || |||||||| || ||||||||||| || || ||  ||   ||||| ||||| |||||| | ||||||||||| || ||| |   ||| |||||  |  | || || ||||| |||| ||||  | || | || ||| ||||||| || || ||||||||||| |||||||||||||||||||| || || |||||||| |||||||| || ||||| || || || ||||| ||  |||| ||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|443496465|gb|JQ955602.1|</Hit_id>
+  <Hit_def>Coffea arabica flowering locus T (FT) mRNA, complete cds</Hit_def>
+  <Hit_accession>JQ955602</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.55</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>4.54327e-94</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>518</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>506</Hsp_align-len>
+      <Hsp_qseq>ATGCC--GAGGGAAAGG-GATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGG</Hsp_qseq>
+      <Hsp_hseq>ATGCCTAGAGGGGGAGGAGACCCACTGGTGGTTGGACGAGTAATAGGGGATGTTTTGGACCAGTTCACCAGGTCCCTAAGCCTTAGCGTGACCTATGGTAGCAGAGAAGTGAGCAATGGTTGTGAGTTTCGACCCTCTCAGGTTGTGAATCAGCCTAGGGTTGAGATTGGAGGTGACGATCTTCGCACCTTCTATACTCTGGTGATGGTGGACCCTGATGCTCCAAGTCCCAGCGATCCAAACCTTAGGGAATACTTGCACTGGTTGGTCACTGACATTCCAGCCACCACGGGAGCATCGTTTGGCCAAGAAGTTGTGTGCTATGAGAGTCCACGGCCATCAATGGGAACCCACCGCTTCATATTCGTGCTTTTCCGGCAGCTTGGGCGGCAGACGGTCTACCCACCCGGATGGCGCCAGAACTTCAACACCAGGGACTTTGCTGAACTTTACAATCTAGGCTCGCCTGTTGCAGCAGTTTACTACAACTGCCAGGGGGAGAGTGG</Hsp_hseq>
+      <Hsp_midline>|||||  |||||  ||| || ||| |||| ||||| || ||||| || |||||| | ||    ||||||| |||  | | |||    ||| |||||  |   || |||||    || || |||||| |   ||||||| |||||||||| || || || ||||| || |||||||| ||| | ||| | ||  | ||  | |||||||| || ||||||||||||||||| || || || ||| | ||||||||||| ||||||||||| || || |||||||| || || ||||||  |||||| ||||||||||||||||||||||| ||| |||||||||||||||  || ||| |  | || ||||| ||||||||  | || || || || || ||| | || |||||||||||||||||||||||||  |||||||| || || ||||| || || || || || || || ||||| |  ||||| ||  |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|48474218|dbj|AB161107.2|</Hit_id>
+  <Hit_def>Populus nigra PnFT3a mRNA for flowering locus T, complete cds</Hit_def>
+  <Hit_accession>AB161107</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.943</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>5.53484e-93</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGTCAAGGGACAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATCTCCCTCAGGGTCACTTACAGCTCCAGAGAGGTCAACAATGGTTGCGAGCTAAAGCCCTCTCAGGTTGCCAACCAGCCTAGAGTTGATATTGGCGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGATGCACCCAGCCCAAGTGACCCCAGCCTAAGAGAATATTTGCACTGGTTGGTGACTGATATTCCAGCAACAACTGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAACCCGAGGCCGACAATGGGAATTCATCGGTTTGTTTTCGTCTTGTTTCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTATACAATCTTGGATCGCCAGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  ||||   ||  | || |     || || ||    || || || |||||||| |||||| ||||||  ||||| || ||||||||||| || || || ||| |  |  | ||  ||||  | || ||||| || |||||||| || || || |||||||| | | |||| ||||| || ||||||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||| ||| |||||  ||||||||||||||||  | ||||| ||  | || |||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| | ||||| || ||||| ||||| || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|88770799|gb|DQ387859.1|</Hit_id>
+  <Hit_def>Populus tremula flowering locus T-like protein FT1 (FT1) mRNA, complete cds</Hit_def>
+  <Hit_accession>DQ387859</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.14</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.93185e-92</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>540</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>527</Hsp_align-len>
+      <Hsp_qseq>ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTC--CTATAATGATAGGGAAGTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA</Hsp_qseq>
+      <Hsp_hseq>ATGTCAAGGGACAGAGATCCTCTGAGCGTTGGCCGTGTTATAGGGGACGTGCTGGACCCCTTCACAAAGTCTATC--CCGCTCAGGGTCACCTACAACTCCAGAGAGGTCAACAATGGTTGCGAGCTCAAACCCTCTCAGGTTGCCAACCAGCCGAGGGTTGATATTGGCGGGGAAGATCTAAGGACCTTCTACACTCTGGTTATGGTGGACCCTGATGCACCCAGCCCAAGTGACCCCAGCCTCAGAGAATATTTGCATTGGTTGGTGACTGATATTCCAGCAACAACGGGGGCAAGCTTTGGCCATGAAACTGTGTGCTATGAGAGCCCGAGGCCGACGATGGGGATTCATCGGTTTGTTTTCGTCTTGTTCCGGCAACTGGGCAGGCAAACTGTGTATGCCCCTGGGTGGCGCCAGAACTTCAACACCAGAGACTTTGCTGAGGTCTACAATCTTGGATCGCCGGTGGCTGCTGTTTATTTCAACTGCCAGAGGGAGAGTGGCTCTGGTGGTAGGAGGCGATAA</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || |||||  ||   ||||| ||||| || || || || || ||    ||||| ||||| |||  || ||| | |||  ||| ||    || || ||    || || || ||||| ||||||||| ||||||  ||||| ||||| |||||||| || || || ||| |  |  | ||  ||||  | || ||||| || |||||||| || || || |||||||| | | | || ||||| || || |||||||| || ||||||||||| ||||| || |||   ||||| || |||  |||||||||||||||||| |||||  | ||||| ||||||||  | ||||| ||  | ||||||||| ||||  | ||||||||||| ||||| || |||||||||||||||||||||| ||||||||| ||| ||||||| || ||||| || || || || |||||||| ||||| ||  |||| ||||| | ||||||  |  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>37786136</Statistics_db-num>
+      <Statistics_db-len>123631117179</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

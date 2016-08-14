@@ -1,0 +1,3008 @@
+BLASTN 2.4.0+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: TC9109HF015
+
+
+Database: Nucleotide collection (nt)
+           37,688,485 sequences; 123,286,491,169 total letters
+Query= gi|269974746|gb|GU120195.2| Chrysanthemum lavandulifolium flowering
+locus T-like protein (FT) mRNA, complete cds
+
+Length=837
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|GU120195.2|  Chrysanthemum lavandulifolium flowering locus ...  1546    0.0   
+dbj|AB679272.2|  Chrysanthemum seticuspe f. boreale CsFTL3 mRN...  1367    0.0   
+dbj|AB808631.1|  Chrysanthemum x morifolium JbFT1-1 mRNA for F...  1349    0.0   
+dbj|AB808632.1|  Chrysanthemum x morifolium JbFT1-2 mRNA for F...  1321    0.0   
+dbj|AB545937.2|  Chrysanthemum x morifolium CmFTL3 mRNA for fl...  1232    0.0   
+gb|KC589294.1|  Chrysanthemum x morifolium cultivar Jinba flow...  1146    0.0   
+gb|GQ925916.1|  Chrysanthemum x morifolium flowering locus T-l...  1090    0.0   
+gb|JF488071.1|  Chrysanthemum x morifolium flowering locus T-l...  1074    0.0   
+dbj|AB808633.1|  Chrysanthemum x morifolium IwFT mRNA for FT l...  1070    0.0   
+dbj|AB770479.1|  Chrysanthemum x morifolium CmFTL3 mRNA for fl...  1064    0.0   
+dbj|AB496427.1|  Chrysanthemum x morifolium FT mRNA for flower...  793     0.0   
+dbj|AB677317.1|  Chrysanthemum x morifolium CmFTL2 mRNA for fl...  782     0.0   
+dbj|AB545936.2|  Chrysanthemum x morifolium CmFTL1 mRNA for fl...  767     0.0   
+dbj|AB679271.1|  Chrysanthemum seticuspe f. boreale CsFTL2 mRN...  726     0.0   
+dbj|AB679270.1|  Chrysanthemum seticuspe f. boreale CsFTL1 mRN...  715     0.0   
+gb|JF434703.1|  Xanthium strumarium flowering locus T 3 (FT3) ...  545     5e-151
+dbj|AB602322.1|  Lactuca sativa LsFT mRNA for flowering locus ...  538     8e-149
+gb|GQ884987.1|  Helianthus annuus cultivar cmsHA89 flowering l...  523     2e-144
+gb|JF434702.1|  Xanthium strumarium flowering locus T 2 (FT2) ...  429     5e-116
+gb|KF752602.1|  Chrysanthemum lavandulifolium flowering locus ...  416     4e-112
+gb|GU189418.1|  Pericallis cruenta flowering locus T-like prot...  339     8e-89 
+gb|JX485630.1|  Lactuca sativa cultivar Diana flowering locus ...  283     4e-72 
+gb|GQ884982.1|  Helianthus annuus isolate Ann1238 flowering lo...  278     2e-70 
+gb|GQ884688.1|  Helianthus annuus bio-material PI 586879 haplo...  270     3e-68 
+gb|GQ884671.1|  Helianthus annuus haplotype A flowering locus ...  270     3e-68 
+dbj|AB602323.1|  Lactuca sativa LsFT gene for flowering locus ...  265     1e-66 
+gb|GQ884713.1|  Helianthus annuus bio-material PI 468475 haplo...  265     1e-66 
+gb|GQ884709.1|  Helianthus annuus bio-material PI 592326 haplo...  265     1e-66 
+gb|GQ884700.1|  Helianthus annuus bio-material PI 613751 haplo...  265     1e-66 
+gb|GQ884698.1|  Helianthus annuus bio-material PI 586849 haplo...  265     1e-66 
+gb|GQ884691.1|  Helianthus annuus bio-material PI 435616 haplo...  265     1e-66 
+gb|GQ884690.1|  Helianthus annuus bio-material PI 586872 haplo...  265     1e-66 
+gb|GQ884678.1|  Helianthus annuus bio-material PI 592316 haplo...  265     1e-66 
+gb|GQ884677.1|  Helianthus annuus bio-material PI 592316 haplo...  265     1e-66 
+gb|GQ884676.1|  Helianthus annuus bio-material PI 592325 haplo...  265     1e-66 
+gb|GQ884673.1|  Helianthus annuus bio-material PI 613750 haplo...  265     1e-66 
+gb|GQ884656.1|  Helianthus annuus bio-material PI 432509 haplo...  265     1e-66 
+gb|GQ884651.1|  Helianthus annuus bio-material PI 432507 haplo...  265     1e-66 
+gb|GQ884647.1|  Helianthus annuus bio-material PI 432504 haplo...  265     1e-66 
+gb|GQ884634.1|  Helianthus annuus bio-material PI 369357 haplo...  265     1e-66 
+gb|GQ884701.1|  Helianthus annuus bio-material PI 613723 haplo...  259     7e-65 
+gb|GQ884697.1|  Helianthus annuus bio-material PI 586849 haplo...  259     7e-65 
+gb|GQ884689.1|  Helianthus annuus bio-material PI 586872 haplo...  259     7e-65 
+gb|GQ884679.1|  Helianthus annuus bio-material PI 435434 haplo...  259     7e-65 
+gb|GQ884674.1|  Helianthus annuus bio-material PI 613750 haplo...  259     7e-65 
+gb|GQ884589.1|  Helianthus argophyllus bio-material PI 494573 ...  254     3e-63 
+gb|GU986389.1|  Helianthus annuus bio-material PI 597890 haplo...  217     4e-52 
+gb|GU986387.1|  Helianthus annuus bio-material PI 468475 haplo...  217     4e-52 
+gb|GU986386.1|  Helianthus annuus bio-material PI 435505 haplo...  217     4e-52 
+gb|GU986384.1|  Helianthus annuus bio-material PI 592326 haplo...  217     4e-52 
+gb|GU986373.1|  Helianthus annuus bio-material PI 613751 haplo...  217     4e-52 
+gb|GU986371.1|  Helianthus annuus bio-material PI 586849 haplo...  217     4e-52 
+gb|GU986365.1|  Helianthus annuus bio-material PI 435616 haplo...  217     4e-52 
+gb|GU986355.1|  Helianthus annuus bio-material PI 435619 haplo...  217     4e-52 
+gb|GU986353.1|  Helianthus annuus bio-material PI 435434 haplo...  217     4e-52 
+gb|GU986352.1|  Helianthus annuus bio-material PI 592316 haplo...  217     4e-52 
+gb|GU986350.1|  Helianthus annuus bio-material PI 592325 haplo...  217     4e-52 
+gb|GU986348.1|  Helianthus annuus bio-material PI 613750 haplo...  217     4e-52 
+gb|GU986347.1|  Helianthus annuus bio-material PI 613750 haplo...  217     4e-52 
+gb|GU986345.1|  Helianthus annuus haplotype A flowering locus ...  217     4e-52 
+gb|GU986330.1|  Helianthus annuus bio-material PI 432509 haplo...  217     4e-52 
+gb|GU986325.1|  Helianthus annuus bio-material PI 432507 haplo...  217     4e-52 
+gb|GU986321.1|  Helianthus annuus bio-material PI 432504 haplo...  217     4e-52 
+gb|GU986309.1|  Helianthus annuus bio-material PI 369360 haplo...  217     4e-52 
+gb|GU986307.1|  Helianthus annuus bio-material PI 369357 haplo...  217     4e-52 
+gb|GU986271.1|  Helianthus annuus bio-material PI 552943 haplo...  217     4e-52 
+gb|GU986269.1|  Helianthus argophyllus bio-material PI 494582 ...  217     4e-52 
+gb|GU986266.1|  Helianthus argophyllus bio-material PI 494580 ...  217     4e-52 
+gb|GU986265.1|  Helianthus argophyllus bio-material PI 494580 ...  217     4e-52 
+gb|GU986264.1|  Helianthus argophyllus bio-material PI 494573 ...  217     4e-52 
+gb|GU986263.1|  Helianthus argophyllus bio-material PI 494573 ...  217     4e-52 
+gb|GU986261.1|  Helianthus argophyllus bio-material PI 494572 ...  217     4e-52 
+gb|GU986259.1|  Helianthus argophyllus bio-material PI 494571 ...  217     4e-52 
+gb|GU986381.1|  Helianthus annuus bio-material PI 613711 haplo...  211     2e-50 
+gb|GU986310.1|  Helianthus annuus bio-material PI 369360 haplo...  211     2e-50 
+dbj|AB457620.1|  Ficus carica FcFT mRNA for flowering locus T-...  211     2e-50 
+gb|JF428720.1|  Helianthus annuus cultivar 34111 genotype 2 fl...  206     9e-49 
+gb|GU986359.1|  Helianthus annuus bio-material PI 468439 haplo...  198     1e-46 
+gb|GU986313.1|  Helianthus annuus bio-material PI 600718 haplo...  198     1e-46 
+gb|GU986283.1|  Helianthus annuus bio-material PI 578872 haplo...  198     1e-46 
+ref|XM_016696806.1|  PREDICTED: Capsicum annuum protein FLOWER...  182     1e-41 
+dbj|AB594723.1|  Ficus carica FcFT gene for flowering locus T-...  139     9e-29 
+ref|XM_008788875.1|  PREDICTED: Phoenix dactylifera protein HE...  121     3e-23 
+ref|XM_008788807.1|  PREDICTED: Phoenix dactylifera protein HE...  121     3e-23 
+
+ALIGNMENTS
+>gb|GU120195.2| Chrysanthemum lavandulifolium flowering locus T-like protein 
+(FT) mRNA, complete cds
+Length=837
+
+ Score = 1546 bits (837),  Expect = 0.0
+ Identities = 837/837 (100%), Gaps = 0/837 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+
+Query  601  ATCATATTATAATTGTTTAGTCTTTTTAAAACtatataatattataattatatatagata  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  ATCATATTATAATTGTTTAGTCTTTTTAAAACTATATAATATTATAATTATATATAGATA  660
+
+Query  661  taaagaaggcgtaacaaataaaaatagctataaaagaataagaataCTGTACGTGTGTGA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  TAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGA  720
+
+Query  721  TCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCATTatgacgaatgatga  780
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  TCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCATTATGACGAATGATGA  780
+
+Query  781  atgatgaatgaaatgaaataaatatgTATTGCATTATGTTTaaaaaaaaaaaaaaaa  837
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781  ATGATGAATGAAATGAAATAAATATGTATTGCATTATGTTTAAAAAAAAAAAAAAAA  837
+
+
+>dbj|AB679272.2| Chrysanthemum seticuspe f. boreale CsFTL3 mRNA for FT like protein, 
+complete cds
+Length=759
+
+ Score = 1367 bits (740),  Expect = 0.0
+ Identities = 752/758 (99%), Gaps = 0/758 (0%)
+ Strand=Plus/Plus
+
+Query  16   ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGT  75
+            |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+Sbjct  1    ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGCGATGTTCTTGATAGT  60
+
+Query  76   TTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGT  135
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGT  120
+
+Query  136  GAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATG  195
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATG  180
+
+Query  196  CGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAAC  255
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAAC  240
+
+Query  256  TTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTT  315
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTT  300
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  360
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  420
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TTCAACACAAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  480
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTC  555
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAATGTC  540
+
+Query  556  CATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTG  615
+            |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  CATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAACATCATATTATAATTG  600
+
+Query  616  TTTAGTCTTTTTAAAACtatataatattataattatatatagatataaagaaggcgtaac  675
+            |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  TTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGATATAAAGAAGGCGTAAC  660
+
+Query  676  aaataaaaatagctataaaagaataagaataCTGTACGTGTGTGATCGACAGTACCAAAT  735
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  AAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGATCGACAGTACCAAAT  720
+
+Query  736  TGTAAGACCTGTAATAAAGATATATTTCATTatgacga  773
+            |||||||| |||||||||||||||||||||||||||||
+Sbjct  721  TGTAAGACTTGTAATAAAGATATATTTCATTATGACGA  758
+
+
+>dbj|AB808631.1| Chrysanthemum x morifolium JbFT1-1 mRNA for FT like protein, 
+complete cds
+Length=742
+
+ Score = 1349 bits (730),  Expect = 0.0
+ Identities = 738/742 (99%), Gaps = 0/742 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  301  ACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Sbjct  541  GATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAAC  600
+
+Query  601  ATCATATTATAATTGTTTAGTCTTTTTAAAACtatataatattataattatatatagata  660
+            ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  601  ATCATATTATAATTGTTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGATA  660
+
+Query  661  taaagaaggcgtaacaaataaaaatagctataaaagaataagaataCTGTACGTGTGTGA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  TAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTGA  720
+
+Query  721  TCGACAGTACCAAATTGTAAGA  742
+            ||||||||||||||||||||||
+Sbjct  721  TCGACAGTACCAAATTGTAAGA  742
+
+
+>dbj|AB808632.1| Chrysanthemum x morifolium JbFT1-2 mRNA for FT like protein, 
+complete cds
+Length=742
+
+ Score = 1321 bits (715),  Expect = 0.0
+ Identities = 734/743 (99%), Gaps = 2/743 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTT-GCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+            ||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTAGC-AACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+
+Query  180  CGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+            |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  CGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+
+Query  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGAC  299
+            ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGAC  299
+
+Query  300  AACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+            ||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Sbjct  300  AACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+
+Query  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+
+Query  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+
+Query  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+
+Query  540  AGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAA  599
+            |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||
+Sbjct  540  AGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAA  599
+
+Query  600  CATCATATTATAATTGTTTAGTCTTTTTAAAACtatataatattataattatatatagat  659
+            |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+Sbjct  600  CATCATATTATAATTGTTTAGTCTTTTTTAAACTATATAATATTATAATTATATATAGAT  659
+
+Query  660  ataaagaaggcgtaacaaataaaaatagctataaaagaataagaataCTGTACGTGTGTG  719
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  660  ATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTGTACGTGTGTG  719
+
+Query  720  ATCGACAGTACCAAATTGTAAGA  742
+            |||||||||||||||||||||||
+Sbjct  720  ATCGACAGTACCAAATTGTAAGA  742
+
+
+>dbj|AB545937.2| Chrysanthemum x morifolium CmFTL3 mRNA for flowering locus T-like 
+protein, complete cds
+Length=718
+
+ Score = 1232 bits (667),  Expect = 0.0
+ Identities = 689/700 (98%), Gaps = 0/700 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  19   TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  78
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  79   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  138
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  139  GTTGCCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCAAGAGTTGATATC  198
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  199  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  258
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct  259  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACA  318
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  319  ACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  378
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  379  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  438
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  439  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  498
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  499  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  558
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| ||
+Sbjct  559  GATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTGAAAGCACGCAC  618
+
+Query  601  ATCATATTATAATTGTTTAGTCTTTTTAAAACtatataatattataattatatatagata  660
+            |||||||||||||||||||||||| || |||||||||||||| |||||||||||||||||
+Sbjct  619  ATCATATTATAATTGTTTAGTCTTCTTTAAACTATATAATATCATAATTATATATAGATA  678
+
+Query  661  taaagaaggcgtaacaaataaaaatagctataaaagaata  700
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  679  TAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATA  718
+
+
+>gb|KC589294.1| Chrysanthemum x morifolium cultivar Jinba flowering locus T-like 
+protein (FTL) mRNA, complete cds
+Length=943
+
+ Score = 1146 bits (620),  Expect = 0.0
+ Identities = 628/632 (99%), Gaps = 0/632 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  290  TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  349
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  350  GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  409
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  410  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  469
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  470  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  529
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  530  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  589
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  590  ACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  649
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  650  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  709
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  710  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  769
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  770  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  829
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Sbjct  830  GATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGAAC  889
+
+Query  601  ATCATATTATAATTGTTTAGTCTTTTTAAAAC  632
+            ||||||||||||||||||||||||||| ||||
+Sbjct  890  ATCATATTATAATTGTTTAGTCTTTTTTAAAC  921
+
+
+>gb|GQ925916.1| Chrysanthemum x morifolium flowering locus T-like protein (FT) 
+mRNA, complete cds
+ dbj|AB808634.1| Chrysanthemum x morifolium OpFT1-1 mRNA for FT like protein, 
+complete cds
+Length=608
+
+ Score = 1090 bits (590),  Expect = 0.0
+ Identities = 602/608 (99%), Gaps = 0/608 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGCCAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACA  300
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  301  ACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||
+Sbjct  541  GATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGCAC  600
+
+Query  601  ATCATATT  608
+            ||||||||
+Sbjct  601  ATCATATT  608
+
+
+>gb|JF488071.1| Chrysanthemum x morifolium flowering locus T-like protein (FT) 
+mRNA, complete cds
+Length=608
+
+ Score = 1074 bits (581),  Expect = 0.0
+ Identities = 599/608 (99%), Gaps = 0/608 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            |||||||||||||||||||||||||| ||| |  ||||||||||||| ||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGATAGGAAATCATTGGTTGTTGGACGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGT  240
+
+Query  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACA  300
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct  241  CCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGACA  300
+
+Query  301  ACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  301  ACAGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGA  360
+
+Query  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCA  420
+
+Query  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  GGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCA  480
+
+Query  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+
+Query  541  GATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAAC  600
+            ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||
+Sbjct  541  GATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATATTGAAAGCACGCAC  600
+
+Query  601  ATCATATT  608
+            ||||||||
+Sbjct  601  ATCATATT  608
+
+
+>dbj|AB808633.1| Chrysanthemum x morifolium IwFT mRNA for FT like protein, complete 
+cds
+ dbj|AB808635.1| Chrysanthemum x morifolium OpFT1-2 mRNA for FT like protein, 
+complete cds
+Length=609
+
+ Score = 1070 bits (579),  Expect = 0.0
+ Identities = 600/610 (98%), Gaps = 2/610 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGACGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTT-GCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+            ||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTAGC-AACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+
+Query  180  CGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+            |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  CGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+
+Query  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGAC  299
+            ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATATTCCAGCGAC  299
+
+Query  300  AACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+            ||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Sbjct  300  AACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+
+Query  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+
+Query  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+
+Query  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+
+Query  540  AGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAA  599
+            |||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||| |
+Sbjct  540  AGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTGAAAGCACGCA  599
+
+Query  600  CATCATATTA  609
+            ||||||||||
+Sbjct  600  CATCATATTA  609
+
+
+>dbj|AB770479.1| Chrysanthemum x morifolium CmFTL3 mRNA for flowering locus T-like 
+protein, partial cds
+Length=655
+
+ Score = 1064 bits (576),  Expect = 0.0
+ Identities = 614/632 (97%), Gaps = 3/632 (0%)
+ Strand=Plus/Plus
+
+Query  170  GAGTTGATATCGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTG  229
+            |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+Sbjct  1    GAGTTGATATCGGAGGTGATGATATGCGTGCATTTCACACATTAGTGATGGTAGATCCTG  60
+
+Query  230  ATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATA  289
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  61   ATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACTGATA  120
+
+Query  290  TTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGC  349
+            ||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  121  TTCCAGCGACAACCGGAGCACAGTTTGGTCAAGAAATTGTGTGCTATGAGAGCCCAAGGC  180
+
+Query  350  CATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTG  409
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTG  240
+
+Query  410  TGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACC  469
+            |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TGTACGCCTCAGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACC  300
+
+Query  470  TCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGAC  529
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGAC  360
+
+Query  530  GACGGAGATAAGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTG  589
+            |||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||
+Sbjct  361  GACGGAGATAAGATATATGGAATGTCCATGCCATGCACATGACGTTACAAATACATTTTG  420
+
+Query  590  AAAGCACGAACATCATATTATAATTGTTTAGTCTTTTTAAAACtatataatattataatt  649
+            |||||||| |||||||||||||||||||||||||| || |||||||||||||| ||||||
+Sbjct  421  AAAGCACGCACATCATATTATAATTGTTTAGTCTTCTTTAAACTATATAATATCATAATT  480
+
+Query  650  atatatagatataaagaaggcgtaacaaataaaaatagctataaaagaataagaataCTG  709
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  ATATATAGATATAAAGAAGGCGTAACAAATAAAAATAGCTATAAAAGAATAAGAATACTG  540
+
+Query  710  TACGTGTGTGATCGACAGTACCAAATTGTAAGACCTGTAATAAAGATATATTTCA-TTat  768
+            |||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||
+Sbjct  541  TACGTGTGTGATCGACAGTACCAAATTGTAAGACTTGTAATAAAGATGTATTTCATTTAT  600
+
+Query  769  gacgaatgatgaatgatgaatgaaatgaaata  800
+            ||||||||||||||||  |||||| | |||||
+Sbjct  601  GACGAATGATGAATGAA-AATGAATT-AAATA  630
+
+
+>dbj|AB496427.1| Chrysanthemum x morifolium FT mRNA for flowering locus T, complete 
+cds
+Length=801
+
+ Score = 793 bits (429),  Expect = 0.0
+ Identities = 553/614 (90%), Gaps = 4/614 (1%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            |||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || 
+Sbjct  55   TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGG  114
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            |||||||||||||||||||| |||||||||||||||||||| || ||| | ||||  || 
+Sbjct  115  GATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAG  174
+
+Query  121  GTT-GCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+            ||| || |||||| | || |||||||||||| ||||||||||||||||||||||||  ||
+Sbjct  175  GTTAGC-AACGGGCGCGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCAT  233
+
+Query  180  CGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+             ||||| || ||| ||||| |||||||||||||||||||||| |||||||||||||||||
+Sbjct  234  TGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAG  293
+
+Query  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGAC  299
+            |||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| |||
+Sbjct  294  TCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGAC  353
+
+Query  300  AACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+             |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||
+Sbjct  354  TACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGG  413
+
+Query  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+            ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  414  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCC  473
+
+Query  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+            || ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+Sbjct  474  AGCATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCC  533
+
+Query  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+            ||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||
+Sbjct  534  AGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATA  593
+
+Query  540  AGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAA  599
+            ||||| | || ||||||||| ||||   | ||||||||||   ||||||||||||||| |
+Sbjct  594  AGATAAAAGGCATGTCCATGGCATGAAGAGGACGTTACAAG--CATATTGAAAGCACGCA  651
+
+Query  600  CATCATATTATAAT  613
+            |||||| |||||||
+Sbjct  652  CATCATGTTATAAT  665
+
+
+>dbj|AB677317.1| Chrysanthemum x morifolium CmFTL2 mRNA for flowering locus T-like 
+protein, complete cds, cultivar: Sei-Marine
+Length=668
+
+ Score = 782 bits (423),  Expect = 0.0
+ Identities = 551/614 (90%), Gaps = 4/614 (1%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            |||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || 
+Sbjct  38   TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGG  97
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            |||||||||||||||||||| |||||||||||||||||||| || ||| | ||||  || 
+Sbjct  98   GATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAG  157
+
+Query  121  GTT-GCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+            ||| || |||||| | || |||||||||||| ||||||||||||||||||||||||  ||
+Sbjct  158  GTTAGC-AACGGGCGCGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCAT  216
+
+Query  180  CGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+             ||||| || ||| ||||| |||||||||||||||||||||| |||||||||||||||||
+Sbjct  217  TGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAG  276
+
+Query  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGAC  299
+            |||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| |||
+Sbjct  277  TCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGAC  336
+
+Query  300  AACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+             |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||
+Sbjct  337  TACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGG  396
+
+Query  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+            ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  397  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCC  456
+
+Query  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+            || ||||||||||||||||||||||||  |||||||||||||||||||||||||||||||
+Sbjct  457  AGCATGGCGCCAGAACTTCAACACCAA--ACTTTGCGGAGCTCTACAACCTCGGATCTCC  514
+
+Query  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+            ||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||
+Sbjct  515  AGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATA  574
+
+Query  540  AGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAA  599
+            ||||| | || ||||||||| ||||   | ||||||||||  | || ||||||||||| |
+Sbjct  575  AGATAAAAGGCATGTCCATGGCATGAAGAGGACGTTACAAGCATATTTTGAAAGCACGCA  634
+
+Query  600  CATCATATTATAAT  613
+            |||||| |||||||
+Sbjct  635  CATCATGTTATAAT  648
+
+
+>dbj|AB545936.2| Chrysanthemum x morifolium CmFTL1 mRNA for flowering locus T-Like 
+protein, complete cds
+Length=630
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 543/606 (90%), Gaps = 4/606 (1%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            |||| |||||| ||||||||||||||||||||||||||||||  ||| || ||||| || 
+Sbjct  26   TCCCATTTTTATATAATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGG  85
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            |||||||||||||||||||| |||||||||||||||||||| || ||  | ||||  || 
+Sbjct  86   GATGTTCTTGATAGTTTCACTAAGTCAATCAACCTCTCTGTTTCTTACGACGATACAGAG  145
+
+Query  121  GTT-GCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATAT  179
+            ||| || |||||| | || |||||||| ||| ||||||||||||||||||||||||  ||
+Sbjct  146  GTTAGC-AACGGGCGCGATCTAAAACCTTCTCAGGTTGTGAACCAACCGAGAGTTGGCAT  204
+
+Query  180  CGGAGGTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAG  239
+             ||||| || ||| ||||| |||||||||||||||||||||| |||||||||||||||||
+Sbjct  205  TGGAGGCGACGATCTGCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAG  264
+
+Query  240  TCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGAC  299
+            |||||||||||||||||||||||||||||| || ||| ||||||| |||||||||| |||
+Sbjct  265  TCCTAGTGACCCTAACTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGAC  324
+
+Query  300  AACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGG  359
+             |||||||| ||||||||||||||| | |||||||||||||||||||||||| |||| ||
+Sbjct  325  TACAGGAGCTCAGTTTGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGG  384
+
+Query  360  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCC  419
+            ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  385  AATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCC  444
+
+Query  420  AGGATGGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCC  479
+            || ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+Sbjct  445  AGCATGGCGCCAGAACTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCC  504
+
+Query  480  AGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATA  539
+            ||||||||| |||||||||||||||||||| |||||| ||||||||||| ||||||||||
+Sbjct  505  AGTAGCCGCAGTTTATTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATA  564
+
+Query  540  AGATATATGGAATGTCCATGCCATGCTCATGACGTTACAAATACATATTGAAAGCACGAA  599
+            ||||| | || ||||||||| ||||   | || |||||||   ||||||||||||||| |
+Sbjct  565  AGATAAAAGGCATGTCCATGGCATGAAGAGGATGTTACAAG--CATATTGAAAGCACGCA  622
+
+Query  600  CATCAT  605
+            ||||||
+Sbjct  623  CATCAT  628
+
+
+>dbj|AB679271.1| Chrysanthemum seticuspe f. boreale CsFTL2 mRNA for FT like protein, 
+complete cds
+Length=525
+
+ Score = 726 bits (393),  Expect = 0.0
+ Identities = 482/526 (92%), Gaps = 2/526 (0%)
+ Strand=Plus/Plus
+
+Query  16   ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGT  75
+            |||||||||||||||||||||||||||| ||| || ||||| || |||||||||||||||
+Sbjct  1    ATGCCGAGGGAAAGGGATCCATTGGTTGGTGGACGCGTAATAGGGGATGTTCTTGATAGT  60
+
+Query  76   TTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTT-GCTAACGGGTG  134
+            |||||||||||||||||||||||||| |||||| | ||||  || ||| || || |||||
+Sbjct  61   TTCACCAAGTCAATCAACCTCTCTGTTTCCTATGACGATACAGAGGTTAGC-AATGGGTG  119
+
+Query  135  TGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATAT  194
+             || || ||||||||| || ||||||||||||||||||||| ||| |||||||| ||| |
+Sbjct  120  CGATCTCAAACCCTCTCAGATTGTGAACCAACCGAGAGTTGGTATTGGAGGTGACGATCT  179
+
+Query  195  GCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAA  254
+            ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  180  GCGCGCATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAA  239
+
+Query  255  CTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTT  314
+            ||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| |||||
+Sbjct  240  CTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGGGACTACAGGAGCTCAGTT  299
+
+Query  315  TGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGT  374
+            |||||||||| | |||||||||||||||||||||||| |||| |||||||||||||||||
+Sbjct  300  TGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGT  359
+
+Query  375  TTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAA  434
+            || |||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  360  TTATGTGTTATTCCGGCAATTGGGTCGACAAACTGCGTACGCCCCAGGATGGCGCCAGAA  419
+
+Query  435  CTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTA  494
+            ||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||
+Sbjct  420  CTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTGGCCGCAGTTTA  479
+
+Query  495  TTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||| ||||||||||||||| || |||||||||||
+Sbjct  480  TTTTAACTGTCAACGCGAAAGTGGATTTGGTAGAAGACGGAGATAA  525
+
+
+>dbj|AB679270.1| Chrysanthemum seticuspe f. boreale CsFTL1 mRNA for FT like protein, 
+complete cds
+Length=525
+
+ Score = 715 bits (387),  Expect = 0.0
+ Identities = 480/526 (91%), Gaps = 2/526 (0%)
+ Strand=Plus/Plus
+
+Query  16   ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGT  75
+            |||||||||||||||||||||||||||  ||| || ||||| || |||||||||||||||
+Sbjct  1    ATGCCGAGGGAAAGGGATCCATTGGTTCGTGGACGCGTAATAGGGGATGTTCTTGATAGT  60
+
+Query  76   TTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTT-GCTAACGGGTG  134
+            ||||| |||||||||||||||||||| || ||| | ||||  || ||| || |||||| |
+Sbjct  61   TTCACTAAGTCAATCAACCTCTCTGTTTCTTATGACGATACAGAGGTTAGC-AACGGGCG  119
+
+Query  135  TGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATAT  194
+             || |||||||||||| ||||||||||||||||||||||||  || ||||| || ||| |
+Sbjct  120  CGATCTAAAACCCTCTCAGGTTGTGAACCAACCGAGAGTTGGCATTGGAGGCGACGATCT  179
+
+Query  195  GCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAA  254
+            |||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  180  GCGCACATTTCACACATTAGTGATGGTTGATCCTGATGCTCCAAGTCCTAGTGACCCTAA  239
+
+Query  255  CTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTT  314
+            ||||||||||||||| || ||| ||||||| |||||||||| ||| |||||||| |||||
+Sbjct  240  CTTAAGGGAATACTTGCATTGGCTGGTTACTGATATTCCAGAGACTACAGGAGCTCAGTT  299
+
+Query  315  TGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGT  374
+            |||||||||| | |||||||||||||||||||||||| |||| |||||||||||||||||
+Sbjct  300  TGGTCAAGAAATCGTGTGCTATGAGAGCCCAAGGCCAACAATAGGAATTCATCGCATGGT  359
+
+Query  375  TTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAA  434
+            |||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||
+Sbjct  360  TTTTGTGCTATTCCGGCAATTGGGTCGAAAAACTGTGTACGCCCCAGCATGGCGCCAGAA  419
+
+Query  435  CTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTA  494
+            ||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  420  CTTCAACACCAAAAACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCAGTTTA  479
+
+Query  495  TTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||||||||||||| |||||| ||||||||||| |||||||||||
+Sbjct  480  TTTTAACTGTCAACGCGAAAGTAGATTTGGTGGAAGACGGAGATAA  525
+
+
+>gb|JF434703.1| Xanthium strumarium flowering locus T 3 (FT3) mRNA, complete 
+cds
+Length=748
+
+ Score = 545 bits (295),  Expect = 5e-151
+ Identities = 478/568 (84%), Gaps = 6/568 (1%)
+ Strand=Plus/Plus
+
+Query  16   ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGT  75
+            ||| | |||| |||||| || ||||| ||||| ||||| || || |||||||||||| ||
+Sbjct  1    ATGGCAAGGGGAAGGGACCCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATGGT  60
+
+Query  76   TTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTTGCTAACGGGTGT  135
+            ||||||||||| || |||||  |||| || ||||| |||||||||||| | |||||||||
+Sbjct  61   TTCACCAAGTCGATTAACCTTACTGTTTCTTATAACGATAGGGAAGTTACAAACGGGTGT  120
+
+Query  136  GAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATG  195
+            ||||||||||||||| | |||||||||||||| || ||||| ||||||||||| ||  ||
+Sbjct  121  GAGCTAAAACCCTCTCAAGTTGTGAACCAACCCAGGGTTGAAATCGGAGGTGACGACTTG  180
+
+Query  196  CGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAAC  255
+            ||||| ||||||||  |||| ||||| |||||||||||||||||||| ||||||||||||
+Sbjct  181  CGCGCTTTTCACACTCTAGTAATGGTGGATCCTGATGCTCCAAGTCCAAGTGACCCTAAC  240
+
+Query  256  TTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTT  315
+             | ||||| ||||| || |||||||| || ||||||||||| || ||||| ||||  |||
+Sbjct  241  CTTAGGGAGTACTTGCATTGGTTGGTGACTGATATTCCAGCAACTACAGGTGCACGTTTT  300
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            |||||||| || |||||||| ||||| ||||||||||| ||||||||||| || ||||||
+Sbjct  301  GGTCAAGAGGTCGTGTGCTACGAGAGTCCAAGGCCATCGATGGGAATTCACCGTATGGTT  360
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            |||||| | || || || ||||||||||||||||||||||||||||| |||||||| || 
+Sbjct  361  TTTGTGTTGTTTCGACAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAAAAT  420
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| ||||||||||| |||||||| ||||| ||||| || || |||||||| || 
+Sbjct  421  TTCAACACAAAAGACTTTGCAGAGCTCTATAACCTTGGATCGCCTGTGGCCGCGGTATAC  480
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA-TA-TATGGAATG  553
+            || ||||| ||||| ||||| || || ||||||||| ||||| |||| || |||| || |
+Sbjct  481  TTCAACTGCCAACGTGAAAGCGGTTTCGGTGGACGAAGGAGACAAGAATAATATG-AA-G  538
+
+Query  554  TCCATGCCATGCTCATGACGTTACAAAT  581
+              |||| |||||  || |||| | ||||
+Sbjct  539  --CATGGCATGCAAATCACGTAATAAAT  564
+
+
+>dbj|AB602322.1| Lactuca sativa LsFT mRNA for flowering locus T, complete cds
+Length=528
+
+ Score = 538 bits (291),  Expect = 8e-149
+ Identities = 450/529 (85%), Gaps = 2/529 (0%)
+ Strand=Plus/Plus
+
+Query  13   ATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGAT  72
+            || ||||| ||||| ||||| || ||||||||||| ||||| || || |||||||| || 
+Sbjct  1    ATGATGCCTAGGGAGAGGGACCCGTTGGTTGTTGGACGTGTGATAGGAGATGTTCTCGAC  60
+
+Query  73   AGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTT-GCTAACGG  131
+            |||||||| ||||| || ||||| |||||  | || || ||||| |||||| || || ||
+Sbjct  61   AGTTTCACAAAGTCGATTAACCTTTCTGTAACATACAACGATAGAGAAGTTAGC-AATGG  119
+
+Query  132  GTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGA  191
+            ||| ||||||||||||||| |||| || || || || || |||||||| |||||||| ||
+Sbjct  120  GTGCGAGCTAAAACCCTCTCAGGTGGTAAATCAGCCTAGGGTTGATATTGGAGGTGACGA  179
+
+Query  192  TATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCC  251
+              | || || |||||||| ||||||||||| |||||||||||||||||||||||||||||
+Sbjct  180  CCTCCGGGCTTTTCACACTTTAGTGATGGTCGATCCTGATGCTCCAAGTCCTAGTGACCC  239
+
+Query  252  TAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACA  311
+            |||| | ||||||||||| || |||||||| |||||||| |||||||| || ||||||| 
+Sbjct  240  TAACCTTAGGGAATACTTGCATTGGTTGGTGACCGATATACCAGCGACCACGGGAGCACG  299
+
+Query  312  GTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCAT  371
+             ||||| |||||| |||||||||||||||| |||||||| ||||||||||||||||||||
+Sbjct  300  TTTTGGCCAAGAAATTGTGTGCTATGAGAGTCCAAGGCCGTCAATGGGAATTCATCGCAT  359
+
+Query  372  GGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCA  431
+            |||||||||| ||||||| || |||||||||||||||||||| ||||| |||||||| ||
+Sbjct  360  GGTTTTTGTGTTATTCCGACAGTTGGGTCGACAAACTGTGTATGCCCCTGGATGGCGTCA  419
+
+Query  432  GAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGT  491
+            ||||||||| || ||||||||||||||||| |||||||| || ||||| || || || ||
+Sbjct  420  GAACTTCAATACTAAAGACTTTGCGGAGCTTTACAACCTTGGTTCTCCGGTGGCAGCAGT  479
+
+Query  492  TTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+             || || ||||| ||||| |||||||| |||||||| ||| | ||||||
+Sbjct  480  CTACTTCAACTGCCAACGTGAAAGTGGGTTTGGTGGGCGAAGAAGATAA  528
+
+
+>gb|GQ884987.1| Helianthus annuus cultivar cmsHA89 flowering locus T2 (FT2) mRNA, 
+complete cds
+Length=528
+
+ Score = 523 bits (283),  Expect = 2e-144
+ Identities = 442/521 (85%), Gaps = 2/521 (0%)
+ Strand=Plus/Plus
+
+Query  21   GAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGTTTCAC  80
+            |||||| ||||| || ||||| ||||| ||||| || || ||||||||||||||||||||
+Sbjct  9    GAGGGAGAGGGACCCGTTGGTCGTTGGACGTGTGATAGGAGATGTTCTTGATAGTTTCAC  68
+
+Query  81   CAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTT-GCTAACGGGTGTGAGC  139
+             ||||| || |||||  |  | || || || || ||||||||| || ||||||||    |
+Sbjct  69   AAAGTCGATTAACCTTACGATTTCTTACAACGACAGGGAAGTTAGC-AACGGGTGCACAC  127
+
+Query  140  TAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATATGCGCG  199
+            ||||||||||| ||||||| ||||| ||  | |||||||| |||||||| ||  | || |
+Sbjct  128  TAAAACCCTCTCAGGTTGTTAACCAGCCTCGGGTTGATATTGGAGGTGACGACCTACGAG  187
+
+Query  200  CATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAA  259
+            | |||||||| ||||| ||||| |||||||||||||| ||||| |||||||||||| | |
+Sbjct  188  CTTTTCACACTTTAGTCATGGTGGATCCTGATGCTCCCAGTCCAAGTGACCCTAACCTTA  247
+
+Query  260  GGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTC  319
+            |||||||||| || |||||||| || |||||||||||||| || |||||||  |||||||
+Sbjct  248  GGGAATACTTGCATTGGTTGGTGACTGATATTCCAGCGACCACTGGAGCACGTTTTGGTC  307
+
+Query  320  AAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTG  379
+            ||||||| |||||||||||||| ||||| |||||||||||||||||||| |||||||| |
+Sbjct  308  AAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTTTTCG  367
+
+Query  380  TGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCA  439
+            || | |||||||| ||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  368  TGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAACTTCA  427
+
+Query  440  ACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTA  499
+            |||| | |||||| || |||||||||||||| || ||||| || ||||| || || || |
+Sbjct  428  ACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCTCCTGTGGCCGCAGTCTACTTCA  487
+
+Query  500  ACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            |||| || || |||||||||| |||||||||||||||||||
+Sbjct  488  ACTGCCAGCGTGAAAGTGGATCTGGTGGACGACGGAGATAA  528
+
+
+>gb|JF434702.1| Xanthium strumarium flowering locus T 2 (FT2) mRNA, complete 
+cds
+Length=687
+
+ Score = 429 bits (232),  Expect = 5e-116
+ Identities = 437/539 (81%), Gaps = 2/539 (0%)
+ Strand=Plus/Plus
+
+Query  6    TTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGT  65
+            |||||| || | |  |||||| ||||| || |||||| | || ||||| || || |||||
+Sbjct  28   TTTTTATATGACGAGGAGGGAGAGGGACCCGTTGGTTCTCGGACGTGTGATAGGAGATGT  87
+
+Query  66   TCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAAGTT-G  124
+            | |||||||||||||||  || ||  |  |  |||| |  || || |||| ||||||| |
+Sbjct  88   TGTTGATAGTTTCACCAGATCGATTGATGTTACTGTTTTATACAACGATATGGAAGTTAG  147
+
+Query  125  CTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAG  184
+            | ||||||||    || ||||||||  | ||||| ||||| ||    || ||||| ||||
+Sbjct  148  C-AACGGGTGCACCCTGAAACCCTCCCAAGTTGTAAACCAGCCTCACGTCGATATTGGAG  206
+
+Query  185  GTGATGATATGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTA  244
+            | || ||  | ||||| |||||||| ||||| ||| |||||||||||||||||||||| |
+Sbjct  207  GAGACGACCTTCGCGCTTTTCACACTTTAGTTATGATAGATCCTGATGCTCCAAGTCCAA  266
+
+Query  245  GTGACCCTAACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAG  304
+            |||| |||||| | ||||||||||| || |||||||| || |||||||||||||| ||||
+Sbjct  267  GTGATCCTAACCTGAGGGAATACTTGCATTGGTTGGTGACAGATATTCCAGCGACCACAG  326
+
+Query  305  GAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTC  364
+            ||||||  |||||||||||| | || || |||||||| ||||| ||||||||||||||||
+Sbjct  327  GAGCACGTTTTGGTCAAGAACTCGTATGTTATGAGAGTCCAAGACCATCAATGGGAATTC  386
+
+Query  365  ATCGCATGGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGAT  424
+            |||| ||||| |||||| | |||||||| ||||||||||||||||||||||||||||  |
+Sbjct  387  ATCGTATGGTATTTGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGCGT  446
+
+Query  425  GGCGCCAGAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAG  484
+            |||| |||||||||||||| | ||||||||| |||||||||||||| |||||||| || |
+Sbjct  447  GGCGTCAGAACTTCAACACAAGAGACTTTGCCGAGCTCTACAACCTTGGATCTCCTGTGG  506
+
+Query  485  CCGCGGTTTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGAT  543
+            | || |  || || ||||| || || ||||||||||  |||||||| || | |||||||
+Sbjct  507  CTGCAGCGTACTTCAACTGCCAGCGTGAAAGTGGATCCGGTGGACGCCGAATATAAGAT  565
+
+
+>gb|KF752602.1| Chrysanthemum lavandulifolium flowering locus T-like protein 
+(FT) gene, complete cds
+Length=2727
+
+ Score = 416 bits (225),  Expect = 4e-112
+ Identities = 225/225 (100%), Gaps = 0/225 (0%)
+ Strand=Plus/Plus
+
+Query  316   GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2503  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  2562
+
+Query  376   TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2563  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  2622
+
+Query  436   TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2623  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  2682
+
+Query  496   TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+             |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2683  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  2727
+
+
+ Score = 398 bits (215),  Expect = 1e-106
+ Identities = 215/215 (100%), Gaps = 0/215 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TCCCGTTTTTACATAATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGC  60
+
+Query  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GATGTTCTTGATAGTTTCACCAAGTCAATCAACCTCTCTGTGTCCTATAATGATAGGGAA  120
+
+Query  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGCTAACGGGTGTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATC  180
+
+Query  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGT  215
+            |||||||||||||||||||||||||||||||||||
+Sbjct  181  GGAGGTGATGATATGCGCGCATTTCACACATTAGT  215
+
+
+ Score = 119 bits (64),  Expect = 1e-22
+ Identities = 67/68 (99%), Gaps = 1/68 (1%)
+ Strand=Plus/Plus
+
+Query  211  TTA-GTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTT  269
+            ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  326  TTAGGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTT  385
+
+Query  270  ACACTGGT  277
+            ||||||||
+Sbjct  386  ACACTGGT  393
+
+
+ Score = 82.4 bits (44),  Expect = 2e-11
+ Identities = 44/44 (100%), Gaps = 0/44 (0%)
+ Strand=Plus/Plus
+
+Query  275   GGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGT  318
+             ||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1836  GGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGT  1879
+
+
+>gb|GU189418.1| Pericallis cruenta flowering locus T-like protein mRNA, partial 
+cds
+Length=210
+
+ Score = 339 bits (183),  Expect = 8e-89
+ Identities = 193/198 (97%), Gaps = 0/198 (0%)
+ Strand=Plus/Plus
+
+Query  213  AGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACA  272
+            ||| ||||| ||||| |||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTAATGGTCGATCCAGATGTTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACA  60
+
+Query  273  CTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTG  332
+            |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  61   CTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAATTGTGTG  120
+
+Query  333  CTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCA  392
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCA  180
+
+Query  393  ATTGGGTCGACAAACTGT  410
+            ||||||||||||||||||
+Sbjct  181  ATTGGGTCGACAAACTGT  198
+
+
+>gb|JX485630.1| Lactuca sativa cultivar Diana flowering locus T (FT) gene, complete 
+cds
+Length=169621
+
+ Score = 283 bits (153),  Expect = 4e-72
+ Identities = 252/300 (84%), Gaps = 5/300 (2%)
+ Strand=Plus/Plus
+
+Query  313     TTT-GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCAT  371
+               ||| || |||||| |||||||||||||||| |||||||| ||||||||||||||||||||
+Sbjct  108633  TTTAGGCCAAGAAATTGTGTGCTATGAGAGTCCAAGGCCGTCAATGGGAATTCATCGCAT  108692
+
+Query  372     GGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCA  431
+               |||||||||| ||||||| || |||||||||||||||||||| ||||| |||||||| ||
+Sbjct  108693  GGTTTTTGTGTTATTCCGACAGTTGGGTCGACAAACTGTGTATGCCCCTGGATGGCGTCA  108752
+
+Query  432     GAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGT  491
+               ||||||||| || ||||||||||||||||| |||||||| || ||||| || || || ||
+Sbjct  108753  GAACTTCAATACTAAAGACTTTGCGGAGCTTTACAACCTTGGTTCTCCGGTGGCAGCAGT  108812
+
+Query  492     TTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGATATATGGAA  551
+                || || ||||| ||||| |||||||| |||||||| ||| | |||||||||| | |  |
+Sbjct  108813  CTACTTCAACTGCCAACGTGAAAGTGGGTTTGGTGGGCGAAGAAGATAAGATAAAAGC-A  108871
+
+Query  552     TGTCCATGCCATGCTC-ATGACGTTACAAATACATATTGAAAGCACGAACATCATATTAT  610
+               |||  ||| |||  || ||||||||| || | ||||| || |||  | ||| ||||||||
+Sbjct  108872  TGTTGATGACAT--TCAATGACGTTATAAGTGCATATGGATAGCTTGCACACCATATTAT  108929
+
+
+ Score = 91.6 bits (49),  Expect = 3e-14
+ Identities = 62/68 (91%), Gaps = 1/68 (1%)
+ Strand=Plus/Plus
+
+Query  211     TTA-GTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTT  269
+               ||| |||||||| ||||||||||||||||||||||||||||||||| | |||||||||||
+Sbjct  107106  TTAGGTGATGGTCGATCCTGATGCTCCAAGTCCTAGTGACCCTAACCTTAGGGAATACTT  107165
+
+Query  270     ACACTGGT  277
+                || ||||
+Sbjct  107166  GCATTGGT  107173
+
+
+>gb|GQ884982.1| Helianthus annuus isolate Ann1238 flowering locus T2 (FT2) gene, 
+complete cds
+Length=2241
+
+ Score = 278 bits (150),  Expect = 2e-70
+ Identities = 200/225 (89%), Gaps = 0/225 (0%)
+ Strand=Plus/Plus
+
+Query  316   GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+             ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  2017  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  2076
+
+Query  376   TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+             || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  2077  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  2136
+
+Query  436   TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+             |||||||| | |||||| || |||||||||||||| || ||||| || ||||| || || 
+Sbjct  2137  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCTCCTGTGGCCGCAGTCTAC  2196
+
+Query  496   TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+             || ||||| || || |||||||||| |||||||||||||||||||
+Sbjct  2197  TTCAACTGCCAGCGTGAAAGTGGATCTGGTGGACGACGGAGATAA  2241
+
+
+>gb|GQ884688.1| Helianthus annuus bio-material PI 586879 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884703.1| Helianthus annuus bio-material PI 613722 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884715.1| Helianthus annuus bio-material PI 597890 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 270 bits (146),  Expect = 3e-68
+ Identities = 200/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||||||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATTTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884671.1| Helianthus annuus haplotype A flowering locus T3 (FT3) pseudogene, 
+partial sequence
+ gb|GQ884702.1| Helianthus annuus bio-material PI 613723 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884704.1| Helianthus annuus bio-material PI 613722 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884716.1| Helianthus annuus bio-material PI 597890 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 270 bits (146),  Expect = 3e-68
+ Identities = 200/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCTGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| |||||||||||||||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACGGAGATAAGA  437
+
+
+>dbj|AB602323.1| Lactuca sativa LsFT gene for flowering locus T, complete cds
+Length=2084
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 202/231 (87%), Gaps = 1/231 (0%)
+ Strand=Plus/Plus
+
+Query  313   TTT-GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCAT  371
+             ||| || |||||| |||||||||||||||| |||||||| ||||||||||||||||||||
+Sbjct  1850  TTTAGGCCAAGAAATTGTGTGCTATGAGAGTCCAAGGCCGTCAATGGGAATTCATCGCAT  1909
+
+Query  372   GGTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCA  431
+             |||||||||| ||||||| || |||||||||||||||||||| ||||| |||||||| ||
+Sbjct  1910  GGTTTTTGTGTTATTCCGACAGTTGGGTCGACAAACTGTGTATGCCCCTGGATGGCGTCA  1969
+
+Query  432   GAACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGT  491
+             ||||||||| || ||||||||||||||||| |||||||| || ||||| || || || ||
+Sbjct  1970  GAACTTCAATACTAAAGACTTTGCGGAGCTTTACAACCTTGGTTCTCCGGTGGCAGCAGT  2029
+
+Query  492   TTATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+              || || ||||| ||||| |||||||| |||||||| ||| | ||||||||
+Sbjct  2030  CTACTTCAACTGCCAACGTGAAAGTGGGTTTGGTGGGCGAAGAAGATAAGA  2080
+
+
+ Score = 91.6 bits (49),  Expect = 3e-14
+ Identities = 62/68 (91%), Gaps = 1/68 (1%)
+ Strand=Plus/Plus
+
+Query  211  TTA-GTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTT  269
+            ||| |||||||| ||||||||||||||||||||||||||||||||| | |||||||||||
+Sbjct  323  TTAGGTGATGGTCGATCCTGATGCTCCAAGTCCTAGTGACCCTAACCTTAGGGAATACTT  382
+
+Query  270  ACACTGGT  277
+             || ||||
+Sbjct  383  GCATTGGT  390
+
+
+>gb|GQ884713.1| Helianthus annuus bio-material PI 468475 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884709.1| Helianthus annuus bio-material PI 592326 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884700.1| Helianthus annuus bio-material PI 613751 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884698.1| Helianthus annuus bio-material PI 586849 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=696
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  190  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  249
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  250  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  309
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  310  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  369
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  370  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  416
+
+
+>gb|GQ884691.1| Helianthus annuus bio-material PI 435616 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884692.1| Helianthus annuus bio-material PI 435616 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884690.1| Helianthus annuus bio-material PI 586872 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884695.1| Helianthus annuus bio-material PI 586856 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884678.1| Helianthus annuus bio-material PI 592316 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884677.1| Helianthus annuus bio-material PI 592316 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884676.1| Helianthus annuus bio-material PI 592325 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884673.1| Helianthus annuus bio-material PI 613750 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884699.1| Helianthus annuus bio-material PI 613751 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884656.1| Helianthus annuus bio-material PI 432509 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884651.1| Helianthus annuus bio-material PI 432507 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884652.1| Helianthus annuus bio-material PI 432507 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884675.1| Helianthus annuus bio-material PI 592325 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884693.1| Helianthus annuus bio-material PI 586869 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884696.1| Helianthus annuus bio-material PI 586856 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884705.1| Helianthus annuus bio-material PI 613720 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884706.1| Helianthus annuus bio-material PI 613720 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884647.1| Helianthus annuus bio-material PI 432504 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884648.1| Helianthus annuus bio-material PI 432504 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884672.1| Helianthus annuus haplotype B flowering locus T3 (FT3) pseudogene, 
+partial sequence
+ gb|GQ884687.1| Helianthus annuus bio-material PI 586879 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884634.1| Helianthus annuus bio-material PI 369357 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884710.1| Helianthus annuus bio-material PI 592326 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 265 bits (143),  Expect = 1e-66
+ Identities = 199/227 (88%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884701.1| Helianthus annuus bio-material PI 613723 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 259 bits (140),  Expect = 7e-65
+ Identities = 198/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| ||||| |||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTATACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884697.1| Helianthus annuus bio-material PI 586849 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=696
+
+ Score = 259 bits (140),  Expect = 7e-65
+ Identities = 198/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| |||||  |||| |||||| ||||||||||||| ||||||
+Sbjct  190  GGTCAAGAAGTGGTGTGCTACGAGAGTTCAAGACCATCACTGGGAATTCATCGAATGGTT  249
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  250  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  309
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  310  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  369
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  370  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  416
+
+
+>gb|GQ884689.1| Helianthus annuus bio-material PI 586872 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 259 bits (140),  Expect = 7e-65
+ Identities = 198/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || ||||| || ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCGGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| ||||||||||| |||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACAGAGATAAGA  437
+
+
+>gb|GQ884679.1| Helianthus annuus bio-material PI 435434 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884682.1| Helianthus annuus bio-material PI 435619 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 259 bits (140),  Expect = 7e-65
+ Identities = 198/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| ||||||||  |||| ||| | |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACAAGAGTCCAGGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| |||||||||||||||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACGGAGATAAGA  437
+
+
+>gb|GQ884674.1| Helianthus annuus bio-material PI 613750 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 259 bits (140),  Expect = 7e-65
+ Identities = 198/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| ||||||||  |||| ||| | |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACAAGAGTCCAGGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||| | ||||||||| |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAACACTAGAGACTTTGCAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| |||||||||||||||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACGGAGATAAGA  437
+
+
+>gb|GQ884589.1| Helianthus argophyllus bio-material PI 494573 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884591.1| Helianthus argophyllus bio-material PI 494580 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884592.1| Helianthus argophyllus bio-material PI 494580 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884595.1| Helianthus argophyllus bio-material PI 494582 haplotype A flowering 
+locus T3 (FT3) pseudogene, partial sequence
+ gb|GQ884596.1| Helianthus argophyllus bio-material PI 494582 haplotype B flowering 
+locus T3 (FT3) pseudogene, partial sequence
+Length=717
+
+ Score = 254 bits (137),  Expect = 3e-63
+ Identities = 197/227 (87%), Gaps = 0/227 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||| ||||| ||||| |||||| ||||||||||||| ||||||
+Sbjct  211  GGTCAAGAAGTGGTGTGCTACGAGAGTCCAAGACCATCACTGGGAATTCATCGAATGGTT  270
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | ||||| || ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  271  TTCGTGTTGTTCCGTCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  330
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||| ||| | ||||| ||  |||||||||||||| || |||||||| ||||| || || 
+Sbjct  331  TTCAGCACTAGAGACTATGTAGAGCTCTACAACCTTGGGTCTCCAGTGGCCGCAGTCTAC  390
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAAGA  542
+            || ||||| || || ||||| |||| |||||||||||||||||||||
+Sbjct  391  TTCAACTGCCAGCGTGAAAGGGGATCTGGTGGACGACGGAGATAAGA  437
+
+
+>gb|GU986389.1| Helianthus annuus bio-material PI 597890 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=866
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  705  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  764
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  765  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  824
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  825  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  866
+
+
+>gb|GU986387.1| Helianthus annuus bio-material PI 468475 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986386.1| Helianthus annuus bio-material PI 435505 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=867
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  706  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  765
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  766  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  825
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  826  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  867
+
+
+>gb|GU986384.1| Helianthus annuus bio-material PI 592326 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986388.1| Helianthus annuus bio-material PI 468475 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986373.1| Helianthus annuus bio-material PI 613751 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986371.1| Helianthus annuus bio-material PI 586849 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986365.1| Helianthus annuus bio-material PI 435616 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986366.1| Helianthus annuus bio-material PI 435616 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986355.1| Helianthus annuus bio-material PI 435619 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986356.1| Helianthus annuus bio-material PI 435619 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986353.1| Helianthus annuus bio-material PI 435434 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986354.1| Helianthus annuus bio-material PI 435434 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986352.1| Helianthus annuus bio-material PI 592316 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986350.1| Helianthus annuus bio-material PI 592325 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986351.1| Helianthus annuus bio-material PI 592316 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986348.1| Helianthus annuus bio-material PI 613750 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986374.1| Helianthus annuus bio-material PI 613751 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986347.1| Helianthus annuus bio-material PI 613750 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986357.1| Helianthus annuus bio-material PI 494567 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986358.1| Helianthus annuus bio-material PI 494567 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986345.1| Helianthus annuus haplotype A flowering locus T2 (FT2) gene, 
+partial cds
+ gb|GU986375.1| Helianthus annuus bio-material PI 613723 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986377.1| Helianthus annuus bio-material PI 613722 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=866
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  705  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  764
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  765  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  824
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  825  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  866
+
+
+>gb|GU986330.1| Helianthus annuus bio-material PI 432509 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986325.1| Helianthus annuus bio-material PI 432507 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986326.1| Helianthus annuus bio-material PI 432507 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986367.1| Helianthus annuus bio-material PI 586869 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986370.1| Helianthus annuus bio-material PI 586856 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986379.1| Helianthus annuus bio-material PI 613720 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986380.1| Helianthus annuus bio-material PI 613720 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986321.1| Helianthus annuus bio-material PI 432504 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986322.1| Helianthus annuus bio-material PI 432504 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986346.1| Helianthus annuus haplotype B flowering locus T2 (FT2) gene, 
+partial cds
+ gb|GU986362.1| Helianthus annuus bio-material PI 586879 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986364.1| Helianthus annuus bio-material PI 586872 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986376.1| Helianthus annuus bio-material PI 613723 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986378.1| Helianthus annuus bio-material PI 613722 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986390.1| Helianthus annuus bio-material PI 597890 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986309.1| Helianthus annuus bio-material PI 369360 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=863
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  702  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  761
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  762  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  821
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  822  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  863
+
+
+>gb|GU986307.1| Helianthus annuus bio-material PI 369357 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986349.1| Helianthus annuus bio-material PI 592325 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986361.1| Helianthus annuus bio-material PI 586879 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986363.1| Helianthus annuus bio-material PI 586872 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986369.1| Helianthus annuus bio-material PI 586856 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986372.1| Helianthus annuus bio-material PI 586849 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986383.1| Helianthus annuus bio-material PI 592326 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986271.1| Helianthus annuus bio-material PI 552943 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986272.1| Helianthus annuus bio-material PI 552943 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986273.1| Helianthus annuus bio-material PI 599984 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986274.1| Helianthus annuus bio-material PI 599984 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986275.1| Helianthus annuus bio-material PI 534655 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986276.1| Helianthus annuus bio-material PI 534655 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986277.1| Helianthus annuus bio-material PI 599768 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986278.1| Helianthus annuus bio-material PI 599768 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986279.1| Helianthus annuus bio-material PI 600000 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986280.1| Helianthus annuus bio-material PI 600000 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986281.1| Helianthus annuus bio-material PI 552937 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986282.1| Helianthus annuus bio-material PI 552937 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986285.1| Helianthus annuus bio-material PI 578873 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986286.1| Helianthus annuus bio-material PI 578873 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986287.1| Helianthus annuus bio-material PI 607505 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986288.1| Helianthus annuus bio-material PI 607505 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986289.1| Helianthus annuus bio-material PI 633744 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986290.1| Helianthus annuus bio-material PI 633744 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986291.1| Helianthus annuus bio-material PI 599773 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986292.1| Helianthus annuus bio-material PI 599773 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986293.1| Helianthus annuus bio-material PI 599759 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986294.1| Helianthus annuus bio-material PI 599759 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986295.1| Helianthus annuus bio-material PI 560141 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986296.1| Helianthus annuus bio-material PI 560141 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986297.1| Helianthus annuus bio-material PI 560145 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986298.1| Helianthus annuus bio-material PI 560145 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986299.1| Helianthus annuus bio-material PI 633746 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986300.1| Helianthus annuus bio-material PI 633746 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986301.1| Helianthus annuus bio-material PI 633748 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986302.1| Helianthus annuus bio-material PI 633748 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986303.1| Helianthus annuus bio-material PI 340790 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986304.1| Helianthus annuus bio-material PI 340790 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986305.1| Helianthus annuus bio-material PI 650650 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986306.1| Helianthus annuus bio-material PI 650650 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986308.1| Helianthus annuus bio-material PI 369357 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986311.1| Helianthus annuus bio-material PI 600717 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986312.1| Helianthus annuus bio-material PI 600717 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986315.1| Helianthus annuus bio-material PI 600719 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986316.1| Helianthus annuus bio-material PI 600719 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986317.1| Helianthus annuus bio-material PI 600720 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986318.1| Helianthus annuus bio-material PI 600720 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986319.1| Helianthus annuus bio-material PI 600721 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986320.1| Helianthus annuus bio-material PI 600721 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986323.1| Helianthus annuus bio-material PI 432505 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986324.1| Helianthus annuus bio-material PI 432505 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986329.1| Helianthus annuus bio-material PI 432509 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986331.1| Helianthus annuus bio-material PI 369358 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986332.1| Helianthus annuus bio-material PI 369358 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986333.1| Helianthus annuus bio-material PI 369359 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986334.1| Helianthus annuus bio-material PI 369359 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986335.1| Helianthus annuus bio-material PI 432510 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986336.1| Helianthus annuus bio-material PI 432510 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986337.1| Helianthus annuus bio-material PI 432515 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986338.1| Helianthus annuus bio-material PI 432515 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986339.1| Helianthus annuus bio-material PI 432516 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986340.1| Helianthus annuus bio-material PI 432516 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986341.1| Helianthus annuus bio-material PI 432521 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986342.1| Helianthus annuus bio-material PI 432521 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986343.1| Helianthus annuus bio-material PI 432522 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986344.1| Helianthus annuus bio-material PI 432522 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986368.1| Helianthus annuus bio-material PI 586869 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986385.1| Helianthus annuus bio-material PI 435505 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|JF428721.1| Helianthus annuus cultivar 34111 genotype 2 flowering locus T2 
+(FT2) gene, partial cds
+Length=863
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  702  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  761
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  762  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  821
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  822  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  863
+
+
+>gb|GU986269.1| Helianthus argophyllus bio-material PI 494582 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986266.1| Helianthus argophyllus bio-material PI 494580 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986265.1| Helianthus argophyllus bio-material PI 494580 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986270.1| Helianthus argophyllus bio-material PI 494582 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986264.1| Helianthus argophyllus bio-material PI 494573 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=866
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  705  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  764
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  765  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  824
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  825  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  866
+
+
+>gb|GU986263.1| Helianthus argophyllus bio-material PI 494573 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=865
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986261.1| Helianthus argophyllus bio-material PI 494572 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=866
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  705  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  764
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  765  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  824
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  825  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  866
+
+
+>gb|GU986259.1| Helianthus argophyllus bio-material PI 494571 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986260.1| Helianthus argophyllus bio-material PI 494571 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986262.1| Helianthus argophyllus bio-material PI 494572 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986267.1| Helianthus argophyllus bio-material PI 494576 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986268.1| Helianthus argophyllus bio-material PI 494576 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=867
+
+ Score = 217 bits (117),  Expect = 4e-52
+ Identities = 147/162 (91%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  706  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  765
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  766  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  825
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  826  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  867
+
+
+>gb|GU986381.1| Helianthus annuus bio-material PI 613711 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986382.1| Helianthus annuus bio-material PI 613711 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=864
+
+ Score = 211 bits (114),  Expect = 2e-50
+ Identities = 146/162 (90%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  703  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  762
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||  | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  763  TTCGTTTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  822
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  823  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  864
+
+
+>gb|GU986310.1| Helianthus annuus bio-material PI 369360 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=863
+
+ Score = 211 bits (114),  Expect = 2e-50
+ Identities = 146/162 (90%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  702  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  761
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||  | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  762  TTCGTTTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  821
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  822  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  863
+
+
+>dbj|AB457620.1| Ficus carica FcFT mRNA for flowering locus T-like protein, complete 
+cds
+Length=525
+
+ Score = 211 bits (114),  Expect = 2e-50
+ Identities = 391/528 (74%), Gaps = 6/528 (1%)
+ Strand=Plus/Plus
+
+Query  16   ATGCCGAGGGAAAGGGATCCATTGGTTGTTGGGCGTGTAATTGGCGATGTTCTTGATAGT  75
+            |||||||| || || || ||| | || || ||| | ||||| || |||||||| ||    
+Sbjct  1    ATGCCGAGAGAGAGAGACCCACTAGTGGTAGGGAGGGTAATAGGAGATGTTCTGGACCAA  60
+
+Query  76   TTCACCAAGTCAATCAACCTCTCTGTG-T-CCTATAATGATAGGGAAGTTGCTAACGGGT  133
+            ||||| | |||||||   ||||  | | | | |||  | ||| ||| ||    || || |
+Sbjct  61   TTCACAAGGTCAATC--TCTCTTAGAGTTACTTATGGTAATAAGGAGGTAAACAATGGCT  118
+
+Query  134  GTGAGCTAAAACCCTCTAAGGTTGTGAACCAACCGAGAGTTGATATCGGAGGTGATGATA  193
+            | || || ||||| ||  | ||||| | ||||||  | ||||| || || ||||||||  
+Sbjct  119  GCGAACTCAAACCTTCCCAAGTTGTCAGCCAACCTCGTGTTGACATTGGTGGTGATGACC  178
+
+Query  194  TGCGCGCATTTCACACATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTA  253
+            | ||| | ||  |||| || || ||||| || |||||||| || || || |||||||| |
+Sbjct  179  TTCGCACCTTCTACACTTTGGTTATGGTTGACCCTGATGCACCTAGCCCAAGTGACCCGA  238
+
+Query  254  ACTTAAGGGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAG-  312
+             | | || |||||||| || |||||||| || || |||||||| || ||||| ||  || 
+Sbjct  239  GCCTGAGAGAATACTTGCATTGGTTGGTGACTGACATTCCAGCAACTACAGGTGC-TAGC  297
+
+Query  313  TTTGGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATG  372
+            || || ||||| || || ||||||||||| ||  ||||  |  |||| ||||| ||| | 
+Sbjct  298  TTCGGACAAGAGGTGGTTTGCTATGAGAGTCCCCGGCCGACGGTGGGGATTCACCGCTTT  357
+
+Query  373  GTTTTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAG  432
+            || || ||  | || |||||| ||||  | ||||| |||||||| || || |||||||||
+Sbjct  358  GTGTTCGTTTTGTTTCGGCAACTGGGAAGGCAAACAGTGTACGCGCCGGGGTGGCGCCAG  417
+
+Query  433  AACTTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTT  492
+            ||||||||||||||||||||||| ||||| ||||| || ||||  || || || || |||
+Sbjct  418  AACTTCAACACCAAAGACTTTGCTGAGCTTTACAATCTAGGATTGCCTGTCGCTGCTGTT  477
+
+Query  493  TATTTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            ||||  || || ||  |||||||||| |  |||||| || ||||||||
+Sbjct  478  TATTACAATTGCCAGAGGGAAAGTGGCTCCGGTGGAAGAAGGAGATAA  525
+
+
+>gb|JF428720.1| Helianthus annuus cultivar 34111 genotype 2 flowering locus T2 
+(FT2) gene, partial cds
+Length=865
+
+ Score = 206 bits (111),  Expect = 9e-49
+ Identities = 145/162 (90%), Gaps = 0/162 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||| ||||||| ||||| |||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  704  GGTTAAGAAGTGGTGTGTTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  763
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  764  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  823
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCT  477
+            |||||||| | |||||| || |||||||||||||| || |||
+Sbjct  824  TTCAACACTAGAGACTTCGCAGAGCTCTACAACCTTGGGTCT  865
+
+
+>gb|GU986359.1| Helianthus annuus bio-material PI 468439 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+Length=847
+
+ Score = 198 bits (107),  Expect = 1e-46
+ Identities = 133/146 (91%), Gaps = 0/146 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  702  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  761
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  762  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  821
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCT  461
+            |||||||| | |||||| || |||||
+Sbjct  822  TTCAACACTAGAGACTTCGCAGAGCT  847
+
+
+>gb|GU986313.1| Helianthus annuus bio-material PI 600718 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986314.1| Helianthus annuus bio-material PI 600718 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986327.1| Helianthus annuus bio-material PI 432508 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986328.1| Helianthus annuus bio-material PI 432508 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986360.1| Helianthus annuus bio-material PI 468439 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=847
+
+ Score = 198 bits (107),  Expect = 1e-46
+ Identities = 133/146 (91%), Gaps = 0/146 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  702  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  761
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  762  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  821
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCT  461
+            |||||||| | |||||| || |||||
+Sbjct  822  TTCAACACTAGAGACTTCGCAGAGCT  847
+
+
+>gb|GU986283.1| Helianthus annuus bio-material PI 578872 haplotype A flowering 
+locus T2 (FT2) gene, partial cds
+ gb|GU986284.1| Helianthus annuus bio-material PI 578872 haplotype B flowering 
+locus T2 (FT2) gene, partial cds
+Length=830
+
+ Score = 198 bits (107),  Expect = 1e-46
+ Identities = 133/146 (91%), Gaps = 0/146 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            ||||||||||| |||||||||||||| ||||| |||||||||||||||||||| ||||||
+Sbjct  685  GGTCAAGAAGTGGTGTGCTATGAGAGTCCAAGACCATCAATGGGAATTCATCGAATGGTT  744
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||| | |||||||| ||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  745  TTCGTGTTGTTCCGGCAGTTGGGTCGACAAACTGTGTACGCCCCAGGGTGGCGCCAGAAC  804
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCT  461
+            |||||||| | |||||| || |||||
+Sbjct  805  TTCAACACTAGAGACTTCGCAGAGCT  830
+
+
+>ref|XM_016696806.1| PREDICTED: Capsicum annuum protein FLOWERING LOCUS T-like (LOC107851722), 
+mRNA
+Length=784
+
+ Score = 182 bits (98),  Expect = 1e-41
+ Identities = 275/362 (76%), Gaps = 6/362 (2%)
+ Strand=Plus/Plus
+
+Query  160  AACCAACCGAGAGTTGATATCGGAGGTGA-TGATATGCGCGCATTTCACACATTAGTGAT  218
+            || ||||| |||||||| || ||||| ||  ||| |   | | ||| | || ||  | ||
+Sbjct  229  AATCAACCTAGAGTTGAGATTGGAGG-GACAGATCTTACCACTTTTTATACTTTGATTAT  287
+
+Query  219  GGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAGGGAATACTTACACTGGTT  278
+            ||| |||||||||||||||||||||||  |||| || || ||||| ||| |||| |||||
+Sbjct  288  GGTGGATCCTGATGCTCCAAGTCCTAGCAACCCAAATTTGAGGGAGTACCTACATTGGTT  347
+
+Query  279  GGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCAAGAAGTTGTGTGCTATGA  338
+            ||| || || || ||||| || ||||||| |   |||||  | | | |  | ||||||||
+Sbjct  348  GGTCACTGACATCCCAGCAACCACAGGAGTAACCTTTGGAAATGCAATAATATGCTATGA  407
+
+Query  339  GAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGTGCTATTCCGGCAATTGGG  398
+            |||||||||||||||||||||||| ||| | |||||||||   ||||| || ||||| ||
+Sbjct  408  GAGCCCAAGGCCATCAATGGGAATACATAGAATGGTTTTTTCTCTATTTCGTCAATTAGG  467
+
+Query  399  TCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCAACACCAAAGAC--TTTGCG  456
+              || |||| || || || |||   ||||| || || ||||| || || |||  ||||| 
+Sbjct  468  AAGAGAAACAGTTTATGCACCAAATTGGCGTCAAAATTTCAATAC-AA-GACAATTTGCA  525
+
+Query  457  GAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTATTTTAACTGTCAACGGGAAAGT  516
+            || || ||||| |||||||| || || || || |||||||| || || ||| |||||| |
+Sbjct  526  GAACTATACAATCTCGGATCACCTGTTGCTGCTGTTTATTTCAATTGCCAAAGGGAAAAT  585
+
+Query  517  GG  518
+            ||
+Sbjct  586  GG  587
+
+
+>dbj|AB594723.1| Ficus carica FcFT gene for flowering locus T-like protein, partial 
+cds
+Length=515
+
+ Score = 139 bits (75),  Expect = 9e-29
+ Identities = 175/225 (78%), Gaps = 0/225 (0%)
+ Strand=Plus/Plus
+
+Query  316  GGTCAAGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTT  375
+            || ||||| || || ||||||||||| ||  ||||  |  |||| ||||| ||| | || 
+Sbjct  291  GGACAAGAGGTGGTTTGCTATGAGAGTCCCCGGCCGACGGTGGGGATTCACCGCTTTGTG  350
+
+Query  376  TTTGTGCTATTCCGGCAATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAAC  435
+            || ||  | || |||||| ||||  | ||||| |||||||| || || ||||||||||||
+Sbjct  351  TTCGTTTTGTTTCGGCAACTGGGAAGGCAAACAGTGTACGCGCCGGGGTGGCGCCAGAAC  410
+
+Query  436  TTCAACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATCTCCAGTAGCCGCGGTTTAT  495
+            |||||||||||||||||||| ||||| ||||| || ||||  || || || || ||||||
+Sbjct  411  TTCAACACCAAAGACTTTGCTGAGCTTTACAATCTAGGATTGCCTGTCGCTGCTGTTTAT  470
+
+Query  496  TTTAACTGTCAACGGGAAAGTGGATTTGGTGGACGACGGAGATAA  540
+            |  || || ||  |||||||||| |  |||||| || ||||||||
+Sbjct  471  TACAATTGCCAGAGGGAAAGTGGCTCCGGTGGAAGAAGGAGATAA  515
+
+
+>ref|XM_008788875.1| PREDICTED: Phoenix dactylifera protein HEADING DATE 3A-like (LOC103705147), 
+transcript variant X2, mRNA
+Length=949
+
+ Score = 121 bits (65),  Expect = 3e-23
+ Identities = 207/277 (75%), Gaps = 4/277 (1%)
+ Strand=Plus/Plus
+
+Query  202  TTTCACA-CATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAG  260
+            ||| ||| | ||| | |||||||| || |||||||||||||| ||||||||  |  | ||
+Sbjct  313  TTTTACACCCTTA-TTATGGTAGACCCAGATGCTCCAAGTCCAAGTGACCCACAGCTCAG  371
+
+Query  261  GGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCA  320
+             || || || ||||||||||| || ||||| || || || |  |||||    | ||||||
+Sbjct  372  AGAGTATTTGCACTGGTTGGTCACAGATATCCCGGCAACGAGTGGAGCTGCCTATGGTCA  431
+
+Query  321  AGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGT  380
+             ||  | ||| |||||||||| ||| | ||  |  | || || || ||  | || |||||
+Sbjct  432  GGAGATCGTGCGCTATGAGAGTCCACGCCCCGCGCTTGGCATCCACCGGTTCGTCTTTGT  491
+
+Query  381  GCTATTCCGGCA-ATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCA  439
+            ||| |||| |||   |||| || ||  |  | ||||| || || |||||||| || ||||
+Sbjct  492  GCTTTTCCCGCAGCCTGGG-CGGCAGGCAATTTACGCTCCTGGGTGGCGCCAAAATTTCA  550
+
+Query  440  ACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATC  476
+            |||||   |||||||||||||||||||||||||||||
+Sbjct  551  ACACCCGGGACTTTGCGGAGCTCTACAACCTCGGATC  587
+
+
+>ref|XM_008788807.1| PREDICTED: Phoenix dactylifera protein HEADING DATE 3A-like (LOC103705147), 
+transcript variant X1, mRNA
+Length=1078
+
+ Score = 121 bits (65),  Expect = 3e-23
+ Identities = 207/277 (75%), Gaps = 4/277 (1%)
+ Strand=Plus/Plus
+
+Query  202  TTTCACA-CATTAGTGATGGTAGATCCTGATGCTCCAAGTCCTAGTGACCCTAACTTAAG  260
+            ||| ||| | ||| | |||||||| || |||||||||||||| ||||||||  |  | ||
+Sbjct  442  TTTTACACCCTTA-TTATGGTAGACCCAGATGCTCCAAGTCCAAGTGACCCACAGCTCAG  500
+
+Query  261  GGAATACTTACACTGGTTGGTTACCGATATTCCAGCGACAACAGGAGCACAGTTTGGTCA  320
+             || || || ||||||||||| || ||||| || || || |  |||||    | ||||||
+Sbjct  501  AGAGTATTTGCACTGGTTGGTCACAGATATCCCGGCAACGAGTGGAGCTGCCTATGGTCA  560
+
+Query  321  AGAAGTTGTGTGCTATGAGAGCCCAAGGCCATCAATGGGAATTCATCGCATGGTTTTTGT  380
+             ||  | ||| |||||||||| ||| | ||  |  | || || || ||  | || |||||
+Sbjct  561  GGAGATCGTGCGCTATGAGAGTCCACGCCCCGCGCTTGGCATCCACCGGTTCGTCTTTGT  620
+
+Query  381  GCTATTCCGGCA-ATTGGGTCGACAAACTGTGTACGCCCCAGGATGGCGCCAGAACTTCA  439
+            ||| |||| |||   |||| || ||  |  | ||||| || || |||||||| || ||||
+Sbjct  621  GCTTTTCCCGCAGCCTGGG-CGGCAGGCAATTTACGCTCCTGGGTGGCGCCAAAATTTCA  679
+
+Query  440  ACACCAAAGACTTTGCGGAGCTCTACAACCTCGGATC  476
+            |||||   |||||||||||||||||||||||||||||
+Sbjct  680  ACACCCGGGACTTTGCGGAGCTCTACAACCTCGGATC  716
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Jul 21, 2016  2:51 PM
+  Number of letters in database: 123,286,491,169
+  Number of sequences in database:  37,688,485
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 37688485
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 1
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 1
+Number of HSP's successfully gapped: 1
+Length of query: 837
+Length of database: 123286491169
+Length adjustment: 34
+Effective length of query: 803
+Effective length of database: 122005082679
+Effective search space: 97970081391237
+Effective search space used: 97970081391237
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 23 (43.6 bits)
+
+
+
+
